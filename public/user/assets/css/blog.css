@@ -1,0 +1,394 @@
+.post-content {
+	margin-top:0;
+}
+
+.post-img {
+	margin: 0 0 25px 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.post-img img {
+	width:100%;
+}
+
+.blog-img-hover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	opacity:0;
+	text-align: center;
+	background:rgba(0, 0, 0, 0.5);
+}
+
+.post-img:hover .blog-img-hover {
+	opacity:1;
+}
+
+.blog-img-hover span {
+	font-size: 15px;
+	position: absolute;
+	top: 40%;
+	width: 30px;
+	height: 30px;
+	background: #F0353A;
+	color: #FFF;
+	line-height: 30px;
+	border-radius: 50%;
+}
+
+.post-meta {
+	margin: 10px 0px 20px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+.post-meta a {
+	font-size: 13px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+}
+
+.post-meta a i {
+	color: #ffffff;
+	margin-right: 6px;
+}
+
+.post-description p {
+	margin-bottom:25px;
+    color: #ffffff;
+}
+.post-description h3 {
+	text-transform: none;
+	font-size: 20px;
+    color: #ffffff;
+}
+
+.post-description h3 a {
+	color:#ffffff;
+}
+
+.post-description h3 a:hover {
+	color:#F0353A;
+}
+
+blockquote {
+	display: block;
+	padding: 20px;
+	background: rgba(245, 245, 245, 0.46) none repeat scroll 0% 0%;
+	margin: 25px 15px;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: justify;
+	color: #ffffff;
+	letter-spacing: 0.1px;
+	border-left: 5px solid #7EC13F;
+}
+
+blockquote a {
+	text-decoration: none;
+	background: #eee;
+	cursor: pointer;
+	padding: 0 3px;
+}
+
+blockquote a:hover {
+	color: #666;
+}
+
+blockquote em {
+	font-style: italic;
+}
+
+.comments-section {
+	padding:50px 0;
+}
+
+.comments-section h3 {
+	margin-bottom: 35px;
+	text-transform: none;
+}
+
+.comment-form input, .search-box input, .comment-form textarea {
+	border:2px solid #CFCBCB;
+}
+
+.comment-form .form-control:focus , .search-box .form-control:focus{
+	border:2px solid #B6DC93 !important;
+}
+
+
+.comment-form ::-webkit-input-placeholder {
+ color:#ffffff !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+.comment-form :-moz-placeholder {
+ color:#5C5C5C !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+.comment-form ::-moz-placeholder {
+ color:#5C5C5C !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+.comment-form :-ms-input-placeholder {
+ color:#ffffff !important;
+ font-weight: 600;
+ letter-spacing:1px;
+}
+
+.comment-list {
+	margin: 40px 0;
+	padding-top: 20px;
+}
+
+.comment-list h3 {
+	margin-bottom: 35px;
+	text-transform: none;
+}
+
+.comment-list ol {
+	list-style: none;
+	margin-left: 0px;
+	padding: 0;
+}
+
+.comment-list ol.comment-sub {
+	list-style: none;
+}
+
+li.comment .single_comment.first-comment {
+	margin-top:25px;
+}
+
+li.comment .single_comment {
+	padding: 20px;
+	background: #FFF none repeat scroll 0% 0%;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 2px #ccc;
+}
+
+li.comment ol.comment-sub {
+	margin-left: 65px;
+}
+
+.comment-list ol .comment-avatar {
+	float: left;
+	margin-right: 25px;
+}
+
+.comment-list ol .comment-avatar img {
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+
+.comment-list ol .comment-content {
+	overflow: hidden;
+}
+
+.comment-list ol .comment-name {
+	font-weight: 700;
+}
+
+.comment-list ol .comment-name span {
+	font-weight: normal;
+	color: #ffffff;
+	margin: 0 8px;
+}
+
+.comment-list ol .comment-name a {
+	font-size: 15px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+}
+
+.comment-list ol .comment-name a.comment-reply {
+	font-size: 13px;
+	font-weight: 600;
+	color: rgb(126, 193, 63);
+}
+
+.comment-list ol .comment-desc {
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #5A5656;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.widget-main {
+	margin-bottom:30px;
+	padding:20px 20px 10px 20px;
+	border: 1px solid #EAEAEA;
+}
+
+.widget-sidebar .search-box {
+	position: relative;
+}
+
+.widget-sidebar .search-box input {
+	padding-left:10px;
+}
+
+.widget-sidebar .search-box i {
+	position: absolute;
+	right: 20px;
+	top: 14px;
+	font-size: 16px;
+}
+
+.post-categories ul {
+	padding:0px;
+	margin:0px;
+}
+
+.post-categories li {
+	list-style: none;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #f0f1f2;
+	padding: 4px 0 4px 15px;
+	position: relative;
+}
+
+.post-categories li:last-child {
+	border-bottom:none;
+	margin-bottom:0px;
+}
+
+.post-categories li a:before {
+	content: "\f105";
+	display: block;
+	font-family: FontAwesome;
+	position: absolute;
+	left: -15px;
+}
+
+.post-categories a {
+	position: relative;
+	color: #383636;
+	font-size: 13.1px;
+	display: inline-block;
+	width: 100%;
+	letter-spacing: 0.9px;
+	padding-bottom: 10px;
+	line-height: 20px;
+	transition: all 0.2s ease 0s;
+	font-weight: 600;
+}
+
+.post-categories a:hover {
+	color:#7EC13F;
+}
+
+.sidebar-widget {
+	font-size: 11px;
+	line-height: 15px;
+	margin-right: 8px;
+}
+
+.sidebar-widget a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.sidebar-widget a:hover {
+	color:#7EC13F;
+}
+
+.sidebar-widget img {
+	float: left;
+	width: 96px;
+	margin: 6px 14px 22px 0px;
+}
+
+.sidebar-widget p.date {
+	color: #333;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.sidebar-widget p.sidebar-widget-title {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 6px;
+}
+
+.tags {
+	padding: 10px 0 10px;
+	display:inline-block;
+}
+
+.tags a {
+	float: left;
+	padding: 10px 7px;
+	font-size: 13px;
+	color: #504C4C;
+	margin: 0px 6px 6px 0px;
+	background: transparent;
+	font-weight: 600;
+	border: 1px solid #ccc;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+.tags a:hover {
+	background:#7EC13F;
+	color:#FFF;
+	border: 1px solid #ccc;
+}
+
+.pagenation {
+	padding: 40px 0 50px;
+}
+
+.pagenation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin: auto;
+}
+
+.pagenation li {
+	float: left;
+	margin-left: 4px;
+	background: #fff;
+	border: 1px solid #e4e7e8;
+}
+
+.pagenation li.active {
+	border: 1px solid #F0353A;
+}
+
+.pagenation li:hover {
+	border: 1px solid #F0353A;
+}
+
+.pagenation li:first-child {
+	margin-left: 0;
+}
+
+.pagenation li a {
+	color: #868e9c;
+	font-size: 14px;
+	padding: 12px 15px;
+	line-height: 12px;
+	display:inline-block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pagenation li.active a, .pagenation li:hover a {
+	color: #F0353A;
+}
