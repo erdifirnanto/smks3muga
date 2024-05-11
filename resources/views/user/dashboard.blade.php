@@ -4,18 +4,19 @@
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-14">
           <div class="row">
-            <div class="col-lg-6 align-self-center">
+            <div class="col-lg-10 align-self-center">
               <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
-                  <div class="col-lg-4 col-sm-4">
+                  <div class="col-lg-7 col-sm-7">
                     <div class="info-stat">
-                      <h6>Agency Status:</h6>
-                      <h4>Ready Work</h4>
+                    <h3>Selamat Datang di Kampus</h3>
+                    <h3>SMKS Muhammadiyah 3 Tegaldlimo</h3>
+                    <!-- <h6>Agency Status:</h6> -->
                     </div>
                   </div>
-                  <div class="col-lg-4 col-sm-4">
+                  <!-- <div class="col-lg-4 col-sm-4">
                     <div class="info-stat">
                       <h6>Price:</h6>
                       <h4>$720/Month</h4>
@@ -26,23 +27,30 @@
                       <h6>Schedules</h6>
                       <h4>$450/Meeting</h4>
                     </div>
-                  </div>
-                  <div class="col-lg-12">
+                  </div> -->
+                  <!-- <div class="col-lg-12">
                     <h2>SEO &amp; Digital Marketing Agency</h2>
-                  </div>
-                  <div class="col-lg-12">
+                  </div> -->
+                  <div class="col-lg-12 mt-4">
                     <div class="main-green-button scroll-to-section">
-                      <a href="#contact">Get Your Quote</a>
+                      <a href="#contact">PPDB</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-sm-7 mt-4">
+                    <div class="info-stat">
+                    <h6>Sekolah menengah Kejuruan yang kreatif dan Unggul dalam bidang pengembangan teknologi.</h6>
+                    <!-- <h3>SMKS Muhammadiyah 3 Tegaldlimo</h3> -->
+                    <!-- <h6>Agency Status:</h6> -->
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-5">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                 <img src="{{asset('user/assets/images/banner-right-image.png')}}" alt="">
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -61,7 +69,7 @@
                     <h6>01</h6>
                   </div>
                   <div class="icon"></div>
-                  <h4>Reach Out</h4>
+                  <h4>Pengembangan Perangkat Lunak & Gim (PPLG)</h4>
                   <div class="line-dec"></div>
                   <p>This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
                 </div>
@@ -72,7 +80,7 @@
                     <h6>02</h6>
                   </div>
                   <div class="icon"></div>
-                  <h4>Develop a Strategy</h4>
+                  <h4>Teknik Bisnis Sepeda Motor (TBSM)</h4>
                   <div class="line-dec"></div>
                   <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
                 </div>
@@ -83,7 +91,7 @@
                     <h6>03</h6>
                   </div>
                   <div class="icon"></div>
-                  <h4>Implementation</h4>
+                  <h4>Otomasi Tata Kelola Perkantoran (OTKP)</h4>
                   <div class="line-dec"></div>
                   <p>If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.</p>
                 </div>
@@ -94,7 +102,7 @@
                     <h6>04</h6>
                   </div>
                   <div class="icon"></div>
-                  <h4>Analyze the result</h4>
+                  <h4>Teknik Kendaraan Ringan (TKRO)</h4>
                   <div class="line-dec"></div>
                   <p>Below circular progress bar animation supports those CSS values 10, 20, 30, till 100.</p>
                 </div>
@@ -102,7 +110,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-12">
+        <!-- <div class="col-lg-12">
           <div class="skills-content">
             <div class="row">
               <div class="col-lg-3">
@@ -179,7 +187,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -189,15 +197,16 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-            <img src="{{asset('user/assets/images/about-left-image.png')}}" alt="">
+            <img style="width:350px;" src="{{asset('user/assets/images/kepsek.jpg')}}" alt="">
           </div>
         </div>
         <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="section-heading">
-            <h6>About Us</h6>
-            <h2>Top <em>marketing</em> agency &amp; consult your website <span>with us</span></h2>
+            <!-- <h6>About Us</h6> -->
+            <!-- <h2>Top <em>marketing</em> agency &amp; consult your website <span>with us</span></h2> -->
+            <h2>Sambutan Kepala Sekolah</h2>
           </div>
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-4 col-sm-4">
               <div class="about-item">
                 <h4>750+</h4>
@@ -216,9 +225,14 @@
                 <h6>awards</h6>
               </div>
             </div>
-          </div>
-          <p><a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a> is free digital marketing CSS template provided by TemplateMo website. You are allowed to use this template for your business websites. Please DO NOT redistribute this template ZIP file on any Free CSS collection websites. You may contact us for more information. Thank you.</p>
-          <div class="main-green-button"><a href="#">Discover company</a></div>
+          </div> -->
+          <p>
+            <a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a>
+            Selamat datang di website SMK Muhammadiyah 3 Tegaldlimo yang saya tujukan untuk seluruh unsur pimpinan, guru, karyawan dan siswa serta khalayak umum guna dapat mengakses seluruh informasi tentang sekolah kami. Tentunya dalam penyajian informasi masih banyak kekurangan, oleh karena itu kepada seluruh civitas akademika dan masyarakat umum dapat memberikan saran dan kritik demi kemajuan lebih lanjut.
+            Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya, sehingga dapat menjalin silaturahmi yang erat di segala unsur. Mari kita bekerja dan berkarya dengan mengharap ridho sang Kuasa dan keikhlasan yang tulus demi anak bangsa. 
+          </p>
+          <h6><b>RAHMI NUR AINI, M.Pd. </h6>
+          <!-- <div class="main-green-button mt-4"><a href="#">Discover company</a></div> -->
         </div>
       </div>
     </div>
