@@ -270,7 +270,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #2989F9;
+  color: #088ec3;
 }
 
 .background-header .nav li a.active {
@@ -282,7 +282,7 @@ header
   position: absolute;
   width: 20px;
   height: 2px;
-  background-color: #4771cb;
+  background-color: #088ec3;
   content: '';
   left: 50%;
   bottom: 0px;
@@ -290,7 +290,7 @@ header
 }
 
 .header-area {
-  background-color: #2989F9;
+  background-color: #088ec3;
   position: absolute;
   top: 0px;
   left: 0px;
