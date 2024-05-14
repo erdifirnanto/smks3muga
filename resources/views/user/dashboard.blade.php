@@ -38,7 +38,7 @@
                   </div>
                   <div class="col-lg-7 col-sm-7 mt-4">
                     <div class="info-stat">
-                    <h6>Sekolah menengah Kejuruan yang kreatif dan Unggul dalam bidang pengembangan teknologi.</h6>
+                    <h3>ISLAMI SANTUN & PROFESIONAL</h3>
                     <!-- <h3>SMKS Muhammadiyah 3 Tegaldlimo</h3> -->
                     <!-- <h6>Agency Status:</h6> -->
                     </div>
@@ -71,7 +71,7 @@
                   <div class="icon"></div>
                   <h4>Pengembangan Perangkat Lunak & Gim (PPLG)</h4>
                   <div class="line-dec"></div>
-                  <p>This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
+                  <p>Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.s</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -80,9 +80,9 @@
                     <h6>02</h6>
                   </div> -->
                   <div class="icon"></div>
-                  <h4>Teknik Bisnis Sepeda Motor (TBSM)</h4>
+                  <h4>Otomasi Tata Kelola Perkantoran (OTKP)</h4>
                   <div class="line-dec"></div>
-                  <p>Lorem ipsum dolor sit ameter consectetur adipiscing li elit sed do eiusmod.</p>
+                  <p>Jurusan OTKP mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -91,7 +91,7 @@
                     <h6>03</h6>
                   </div> -->
                   <div class="icon"></div>
-                  <h4>Otomasi Tata Kelola Perkantoran (OTKP)</h4>
+                  <h4>Teknik Bisnis Sepeda Motor (TBSM)</h4>
                   <div class="line-dec"></div>
                   <p>If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.</p>
                 </div>
@@ -104,7 +104,7 @@
                   <div class="icon"></div>
                   <h4>Teknik Kendaraan Ringan (TKRO)</h4>
                   <div class="line-dec"></div>
-                  <p>Below circular progress bar animation supports those CSS values 10, 20, 30, till 100.</p>
+                  <p>Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).</p>
                 </div>
               </div>
             </div>
@@ -533,7 +533,7 @@
                       <div class="icon">
                         <img src="{{asset('user/assets/images/contact-icon-02.png')}}" alt="phone">
                       </div>
-                      <a href="#">+001-002-0034</a>
+                      <a href="#">081230400703</a>
                     </li>
                     <li>
                       <div class="icon">
