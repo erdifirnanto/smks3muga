@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-    <title>SEO Dream - Creative SEO HTML5 Template by TemplateMo</title>
+    <title>SMKS Muhammadiyah 3 Tegaldlimo</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('user/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
