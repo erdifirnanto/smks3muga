@@ -79,28 +79,28 @@
               <div class="col-lg-3">
                 <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
                   <div class="icon"></div>
-                  <h4>Pengembangan Perangkat Lunak & Gim (PPLG)</h4>
+                  <h4>Fasilitas Lengkap</h4>
                   <div class=""></div>
                 </div>
               </div>
               <div class="col-lg-3">
                 <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                   <div class="icon"></div>
-                  <h4>Otomasi Tata Kelola Perkantoran (OTKP)</h4>
+                  <h4>Lingkungan Nyaman</h4>
                   <div class=""></div>
                 </div>
               </div>
               <div class="col-lg-3">
                 <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                   <div class="icon"></div>
-                  <h4>Teknik Bisnis Sepeda Motor (TBSM)</h4>
+                  <h4>Guru Kompeten</h4>
                   <div class=""></div>
                 </div>
               </div>
               <div class="col-lg-3">
                 <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                   <div class="icon"></div>
-                  <h4>Teknik Kendaraan Ringan (TKRO)</h4>
+                  <h4>Kerja Sama Luas</h4>
                   <div class=""></div>
                 </div>
               </div>
@@ -122,7 +122,7 @@
         <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="section-heading">
             <!-- <h6>About Us</h6> -->
-            <h2>Sambutan Kepala Sekolah</h2>
+            <h2>Prakata Kepala Sekolah</h2>
           </div>
           <p>
             Selamat datang di website SMK Muhammadiyah 3 Tegaldlimo yang saya tujukan untuk seluruh unsur pimpinan, guru, karyawan dan siswa serta khalayak umum guna dapat mengakses seluruh informasi tentang sekolah kami. Tentunya dalam penyajian informasi masih banyak kekurangan, oleh karena itu kepada seluruh civitas akademika dan masyarakat umum dapat memberikan saran dan kritik demi kemajuan lebih lanjut.
