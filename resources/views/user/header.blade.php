@@ -10,8 +10,8 @@
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#features">Profil</a></li>
+              <li class="scroll-to-section"><a href="{{route('dashboard.user')}}" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="{{route('profile.user')}}">Profil</a></li>
               <li class="scroll-to-section"><a href="#about">Informasi</a></li>
               <li class="scroll-to-section"><a href="#services">Jurusan</a></li>
               <li class="scroll-to-section"><a href="#">Ekskul</a></li>

@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
+//SMK SMUGA
+use App\Http\Controllers\HomeController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -97,6 +101,7 @@ Route::group(['prefix' => 'prestasi', 'middleware' => ['auth:sanctum', config('j
     Route::post('/update/{id}', [PrestasiController::class, 'update'])->name('update.prestasi_admin');
     Route::get('/delete/{id}', [PrestasiController::class, 'destroy'])->name('delete.prestasi_admin');
 });
+
 Route::group(['prefix' => 'vidio', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
     Route::get('/view', [VidioController::class, 'index'])->name('vidio_admin');
     Route::get('/add', [VidioController::class, 'create'])->name('add.vidio_admin');
@@ -105,6 +110,7 @@ Route::group(['prefix' => 'vidio', 'middleware' => ['auth:sanctum', config('jets
     Route::post('/update/{id}', [VidioController::class, 'update'])->name('update.vidio_admin');
     Route::get('/delete/{id}', [VidioController::class, 'destroy'])->name('delete.vidio_admin');
 });
+
 Route::group(['prefix' => 'event', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
     Route::get('/view', [EventController::class, 'index'])->name('event_admin');
     Route::get('/add', [EventController::class, 'create'])->name('add.event_admin');
@@ -113,6 +119,7 @@ Route::group(['prefix' => 'event', 'middleware' => ['auth:sanctum', config('jets
     Route::post('/update/{id}', [EventController::class, 'update'])->name('update.event_admin');
     Route::get('/delete/{id}', [EventController::class, 'destroy'])->name('delete.event_admin');
 });
+
 Route::group(['prefix' => 'pendaftaran', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
     Route::get('/view', [PendaftaranController::class, 'index'])->name('view_pendaftaran');
     Route::get('/download', [PendaftaranController::class, 'export'])->name('download');
@@ -120,4 +127,9 @@ Route::group(['prefix' => 'pendaftaran', 'middleware' => ['auth:sanctum', config
     Route::get('/reset', [PendaftaranController::class, 'reset'])->name('reset');
     Route::get('/delete/{id}', [PendaftaranController::class, 'destroy'])->name('delete.pendaftaran');
 });
+
 Route::get('/admin/logout', [LoginController::class, 'logout'])->name('admin.logout')->middleware('auth');
+
+
+//SMKS MUHAMMADIYAH 3 TEGALDLIMO
+Route::get('/profile', [HomeController::class, 'profile'])->name('profile.user');
