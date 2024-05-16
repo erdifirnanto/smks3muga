@@ -182,7 +182,11 @@
                   <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
                   <h4>Pengembangan Perangkat Lunak & Gim (PPLG)</h4>
                   <div class="line-dec"></div>
-                  <p>Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.s</p>
+                  <p>
+                    <div style="text-align:justify">
+                    Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.
+                    </div>
+                  </p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -193,7 +197,11 @@
                   <div class="icon"></div>
                   <h4>Manajemen Perkantoran dan Layanan Bisnis (MPLB)</h4>
                   <div class="line-dec"></div>
-                  <p>Jurusan MPLB mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.</p>
+                  <p>
+                    <div style="text-align:justify">
+                    Jurusan MPLB mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.
+                    </div>
+                  </p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -204,7 +212,11 @@
                   <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
                   <h4>Teknik Bisnis Sepeda Motor (TBSM)</h4>
                   <div class="line-dec"></div>
-                  <p>If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.</p>
+                  <p>
+                    <div style="text-align:justify">
+                    If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.
+                    </div>
+                  </p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -215,7 +227,11 @@
                   <div class="icon"></div>
                   <h4>Teknik Kendaraan Ringan (TKRO)</h4>
                   <div class="line-dec"></div>
-                  <p>Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).</p>
+                  <p>
+                    <div style="text-align:justify">
+                    Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).
+                    </div>
+                  </p>
                 </div>
               </div>
             </div>

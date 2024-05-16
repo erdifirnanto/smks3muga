@@ -39,8 +39,8 @@
             <li class="scroll-to-section dropdown">
               <a href="" class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ekskul</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">IPM</a></li>
-                <li><a class="dropdown-item" href="#">HW</a></li>
+                <li><a class="dropdown-item" href="#">Ikatan Pelajar Muhammadiyah (IPM)</a></li>
+                <li><a class="dropdown-item" href="#">Hizbul Wathan (HW)</a></li>
                 <li><a class="dropdown-item" href="#">Tapak Suci</a></li>
                 <li><a class="dropdown-item" href="#">Panahan</a></li>
                 <li><a class="dropdown-item" href="#">Remaja Masjid</a></li>
