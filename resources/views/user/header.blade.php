@@ -12,6 +12,7 @@
           <ul class="nav">
             <li class="scroll-to-section"><a href="{{route('dashboard.user')}}" class="active">Home</a></li>
             <li class="scroll-to-section"><a href="{{route('profile.user')}}">Profil</a></li>
+            <!-- dropdown start cil-->
             <li class="scroll-to-section "><a href="#about">Informasi</a></li>
             <li class="scroll-to-section dropdown">
               <a href="" class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jurusan</a>
@@ -21,6 +22,7 @@
                 <li><a class="dropdown-item" href="#">Something </a></li>
               </ul>
             </li>
+            <!-- dropdown end yaa cil -->
             <li class="scroll-to-section"><a href="#">Ekskul</a></li>
             <li class="scroll-to-section"><a href="#galery">Galeri</a></li>
             <li class="scroll-to-section"><a href="#contact">Kontak</a></li>
