@@ -692,7 +692,7 @@ header
     padding: 0px !important;
     border: none !important;
     background: #f7f7f7 !important;
-    color: #ffffff !important;
+    color: #000000 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
