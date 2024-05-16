@@ -37,8 +37,10 @@
           </div> -->
           <p>
             <!-- <a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a> -->
+            <div style="text-align:justify">
             Selamat datang di website SMK Muhammadiyah 3 Tegaldlimo yang saya tujukan untuk seluruh unsur pimpinan, guru, karyawan dan siswa serta khalayak umum guna dapat mengakses seluruh informasi tentang sekolah kami. Tentunya dalam penyajian informasi masih banyak kekurangan, oleh karena itu kepada seluruh civitas akademika dan masyarakat umum dapat memberikan saran dan kritik demi kemajuan lebih lanjut.
             Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya, sehingga dapat menjalin silaturahmi yang erat di segala unsur. Mari kita bekerja dan berkarya dengan mengharap ridho sang Kuasa dan keikhlasan yang tulus demi anak bangsa. 
+            </div>
           </p>
           <h6><b>RAHMI NUR AINI, M.Pd. </h6>
           <!-- <div class="main-green-button mt-4"><a href="#">Discover company</a></div> -->
@@ -341,7 +343,7 @@
                       <div class="icon">
                         <img src="{{asset('user/assets/images/contact-icon-02.png')}}" alt="phone">
                       </div>
-                      <a href="#">081230400703</a>
+                      <a href="#">+62 812-3040-0703</a>
                     </li>
                     <li>
                       <div class="icon">
