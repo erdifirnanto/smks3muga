@@ -374,14 +374,14 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  color: #4771cb !important;
+  color: #ffffff !important;
 }
 
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #000000;
+  color: #ffffff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -618,7 +618,7 @@ header
 @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
-    display: none;
+    /* display: none; */
   }
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
@@ -658,7 +658,7 @@ header
     display: block !important;
   }
   .header-area .main-nav {
-    overflow: hidden;
+    overflow: scroll;
   }
   .header-area .main-nav .nav {
     float: none;
@@ -692,7 +692,7 @@ header
     padding: 0px !important;
     border: none !important;
     background: #f7f7f7 !important;
-    color: #191a20 !important;
+    color: #ffffff !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;

@@ -10,7 +10,7 @@
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
-            <li class="scroll-to-section"><a href="{{route('dashboard.user')}}" class="active">Home</a></li>
+            <li class="scroll-to-section"><a href="{{route('dashboard.user')}}">Home</a></li>
             <li class="scroll-to-section dropdown">
               <a href="" class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
               <ul class="dropdown-menu">
