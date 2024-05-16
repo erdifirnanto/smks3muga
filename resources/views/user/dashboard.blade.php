@@ -157,7 +157,8 @@
                   <!-- <div class="first-number number">
                     <h6>01</h6>
                   </div> -->
-                  <div class="icon"></div>
+                  
+                  <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
                   <h4>Pengembangan Perangkat Lunak & Gim (PPLG)</h4>
                   <div class="line-dec"></div>
                   <p>Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.s</p>
@@ -179,7 +180,7 @@
                   <!-- <div class="third-number number">
                     <h6>03</h6>
                   </div> -->
-                  <div class="icon"></div>
+                  <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
                   <h4>Teknik Bisnis Sepeda Motor (TBSM)</h4>
                   <div class="line-dec"></div>
                   <p>If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.</p>
