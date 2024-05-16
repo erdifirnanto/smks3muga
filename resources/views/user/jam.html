@@ -1,0 +1,29 @@
+<!--jam -->
+<div id="clock"></div>
+<style>
+#clock {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+  }
+</style>
+<script>
+function updateClock() {
+  var now = new Date();
+  var hours = now.getHours();
+  var minutes = now.getMinutes();
+  var seconds = now.getSeconds();
+  
+  // Menambahkan 0 di depan angka jika angka < 10
+  hours = hours < 10 ? '0' + hours : hours;
+  minutes = minutes < 10 ? '0' + minutes : minutes;
+  seconds = seconds < 10 ? '0' + seconds : seconds;
+  
+  var timeString = hours + ':' + minutes + ':' + seconds;
+  document.getElementById('clock').innerText = timeString;
+}
+
+// Memanggil fungsi updateClock setiap 1 detik
+setInterval(updateClock, 1000);
+</script>

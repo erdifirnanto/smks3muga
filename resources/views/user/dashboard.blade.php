@@ -13,6 +13,11 @@
                     <div class="info-stat">
                     <h3>Selamat Datang di Kampus</h3>
                     <h3>SMKS Muhammadiyah 3 Tegaldlimo</h3>
+                    <div class="col-lg-12 mt-4">
+                    <div class="main-green-button scroll-to-section">
+                      <a href="#contact">PPDB</a>
+                    </div>
+                  </div>
                     <!-- <h6>Agency Status:</h6> -->
                     </div>
                   </div>
@@ -31,11 +36,9 @@
                   <!-- <div class="col-lg-12">
                     <h2>SEO &amp; Digital Marketing Agency</h2>
                   </div> -->
-                  <div class="col-lg-12 mt-4">
-                    <div class="main-green-button scroll-to-section">
-                      <a href="#contact">PPDB</a>
-                    </div>
-                  </div>
+                  
+                  
+                  
                   <div class="col-lg-7 col-sm-7 mt-4">
                     <div class="info-stat">
                     <h4>ISLAMI SANTUN & PROFESIONAL</h4>

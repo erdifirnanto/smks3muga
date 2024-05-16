@@ -182,7 +182,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #33ccc5;
+  color: #088ec3;
   text-transform: uppercase;
   margin-bottom: 15px;
 
@@ -200,7 +200,7 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #33ccc5;
+  color: #088ec3;
 }
 
 .section-heading h2 span {
@@ -229,7 +229,7 @@ body {
 
 .main-green-button a {
   display: inline-block;
-  background-color: #33ccc5;
+  background-color: #088ec3;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -244,7 +244,7 @@ body {
 .main-green-button a:hover {
   background-color: #4771cb!important;
   color: #fff!important;
-  border-bottom: 2px solid #33ccc5!important;
+  border-bottom: 2px solid #088ec3!important;
 }
 
 
@@ -361,10 +361,10 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:last-child {
+/* .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
   padding-left: 40px;
-}
+} */
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
@@ -462,7 +462,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #33ccc5!important;
+  color: #088ec3!important;
   padding-left: 25px;
 }
 
@@ -602,7 +602,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #33ccc5;
+  color: #088ec3;
 }
 
 @media (max-width: 1200px) {
@@ -635,14 +635,14 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #33ccc5!important;
+    color: #088ec3!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
   .header-area {
-    background-color: #33ccc5;
+    background-color: #088ec3;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -696,7 +696,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #33ccc5!important;
+    color: #088ec3!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -810,7 +810,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #33ccc5;
+    background: #088ec3;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -833,7 +833,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #33ccc5;
+    background: #088ec3;
     border-radius: 50%;
 }
 
@@ -1577,7 +1577,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #33ccc5;
+  background-color: #088ec3;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1595,7 +1595,7 @@ form#contact button {
 form#contact button:hover {
   background-color: #4771cb!important;
   color: #fff!important;
-  border-bottom: 2px solid #33ccc5!important;
+  border-bottom: 2px solid #088ec3!important;
 }
 
 /* 
@@ -1610,7 +1610,7 @@ footer p {
 }
 
 footer p a {
-  color: #33ccc5;
+  color: #088ec3;
   transition: all .5s;
 }
 
@@ -1632,9 +1632,9 @@ responsive
     max-width: 25px;
     margin-left: 0px;
   }
-  .header-area .main-nav .nav li:last-child {
+  /* .header-area .main-nav .nav li:last-child {
     padding-left: 20px;
-  }
+  } */
 }
 
 @media (max-width: 992px) {
