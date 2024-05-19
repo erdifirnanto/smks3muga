@@ -855,6 +855,7 @@ Banner Style
   overflow: hidden;
 }
 
+
 .main-banner:after {
   content: '';
   /* background-image: url('../images/gedung-smk.jpg'); */
