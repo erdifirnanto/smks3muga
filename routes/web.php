@@ -15,8 +15,16 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
 //SMK SMUGA
-use App\Http\Controllers\HomeController;
+//use App\Http\Controllers\HomeController;//
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\InformasiController;
 use App\Http\Controllers\JurusanController;
+use App\Http\Controllers\EkskulController;
+use App\Http\Controllers\GaleriController;
+
+use App\Http\Controllers\KontakController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -132,5 +140,14 @@ Route::get('/admin/logout', [LoginController::class, 'logout'])->name('admin.log
 
 
 //SMKS MUHAMMADIYAH 3 TEGALDLIMO
-Route::get('/profile', [HomeController::class, 'profile'])->name('profile.user');
+//Route::get('/profile', [HomeController::class, 'profile'])->name('profile.user');//
+Route::get('/sambutan', [ProfileController::class, 'sambutan'])->name('sambutan.user');
+Route::get('/visimisi', [ProfileController::class, 'visimisi'])->name('visimisi.user');
+Route::get('/fasilitas', [ProfileController::class, 'fasilitas'])->name('fasilitas.user');
+Route::get('/berita', [InformasiController::class, 'berita'])->name('berita.user');
+Route::get('/event', [InformasiController::class, 'event'])->name('event.user');
 Route::get('/jurusan', [JurusanController::class, 'jurusan'])->name('jurusan.user');
+Route::get('/ekskul', [EkskulController::class, 'ekskul'])->name('ekskul.user');
+Route::get('/galeri', [GaleriController::class, 'galeri'])->name('galeri.user');
+
+Route::get('/kontak', [KontakController::class, 'kontak'])->name('kontak.user');
