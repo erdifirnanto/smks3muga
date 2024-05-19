@@ -1,7 +1,7 @@
 @extends('user.master')
 @section('master')
 
-<div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+<div class="main-banner transparent-background wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
   <div class="container">
     <div class="row">
       <div class="col-lg-14">
@@ -87,10 +87,12 @@
                 </svg>
                 <h4>Fasilitas Lengkap</h4>
                 <div class=""></div>
-                <h6><p>
+                <h6>
+                  <p>
                   <div style="text-align:left">
-                  Sarana dan prasarana pendukung pembelajaran lengkap.
-                  </div></h6>
+                    Sarana dan prasarana pendukung pembelajaran lengkap.
+                  </div>
+                </h6>
                 </p>
               </div>
             </div>
@@ -103,10 +105,12 @@
                 </svg>
                 <h4>Lingkungan Nyaman</h4>
                 <div class=""></div>
-                <h6><p>
+                <h6>
+                  <p>
                   <div style="text-align:left">
-                  Berada di lingkungan yang asri, aman, dan kondusif.
-                  </div></h6>
+                    Berada di lingkungan yang asri, aman, dan kondusif.
+                  </div>
+                </h6>
                 </p>
               </div>
             </div>
@@ -119,10 +123,12 @@
                 </svg>
                 <h4>Guru Kompeten</h4>
                 <div class=""></div>
-                <h6><p>
+                <h6>
+                  <p>
                   <div style="text-align:left">
-                  Guru pengajar yang up-to-date dan kompeten di bidangnya.
-                  </div></h6>
+                    Guru pengajar yang up-to-date dan kompeten di bidangnya.
+                  </div>
+                </h6>
                 </p>
               </div>
             </div>
@@ -134,10 +140,12 @@
                 </svg>
                 <h4>Kerja Sama Luas</h4>
                 <div class=""></div>
-                <h6><p>
+                <h6>
+                  <p>
                   <div style="text-align:left">
-                  Lulusan langsung bekerja di perusahaan.
-                  </div></h6>
+                    Lulusan langsung bekerja di perusahaan.
+                  </div>
+                </h6>
                 </p>
               </div>
             </div>
@@ -148,12 +156,13 @@
   </div>
 </div>
 
-<div id="about" class="about-us section">
+
+<div id=" about" class="about-us section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mt-5">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:300px;" src="{{asset('user/assets/images/pengurusinti.jpg')}}" alt="">
+          <img style="max-width: 500px;" src="{{asset('user/assets/images/pengurusinti.jpg')}}" alt="">
         </div>
       </div>
       <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -198,61 +207,76 @@
                 <!-- <div class="first-number number">
                     <h6>01</h6>
                   </div> -->
-                  
-                  <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
-                  <h4><div style="text-align:justify">Pengembangan Perangkat Lunak & Gim (PPLG)</div></h4>
-                  <div class="line-dec"></div>
-                  <h6><p>
-                    <div style="text-align:left">
+
+                <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
+                <h4>
+                  <div style="text-align:justify">Pengembangan Perangkat Lunak & Gim (PPLG)</div>
+                </h4>
+                <div class="line-dec"></div>
+                <h6>
+                  <p>
+                  <div style="text-align:left">
                     Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.
-                    </div></h6>
-                  </p>
-                </div>
+                  </div>
+                </h6>
+                </p>
               </div>
-              <div class="col-lg-3">
-                <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <!-- <div class="second-number number">
+            </div>
+            <div class="col-lg-3">
+              <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                <!-- <div class="second-number number">
                     <h6>02</h6>
                   </div> -->
-                  <div class="icon"></div>
-                  <h4><div style="text-align:justify">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div></h4>
-                  <div class="line-dec"></div>
-                  <h6><p>
-                    <div style="text-align:left">
+                <div class="icon"></div>
+                <h4>
+                  <div style="text-align:justify">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div>
+                </h4>
+                <div class="line-dec"></div>
+                <h6>
+                  <p>
+                  <div style="text-align:left">
                     Jurusan MPLB mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.
-                    </div></h6>
-                  </p>
-                </div>
+                  </div>
+                </h6>
+                </p>
               </div>
-              <div class="col-lg-3">
-                <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                  <!-- <div class="third-number number">
+            </div>
+            <div class="col-lg-3">
+              <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                <!-- <div class="third-number number">
                     <h6>03</h6>
                   </div> -->
-                  <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
-                  <h4><div style="text-align:justify">Teknik Bisnis Sepeda Motor (TBSM)</div></h4>
-                  <div class="line-dec"></div>
-                  <p>
-                    <h6><div style="text-align:left">
+                <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
+                <h4>
+                  <div style="text-align:justify">Teknik Bisnis Sepeda Motor (TBSM)</div>
+                </h4>
+                <div class="line-dec"></div>
+                <p>
+                <h6>
+                  <div style="text-align:left">
                     If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.
-                    </div></h6>
-                  </p>
-                </div>
+                  </div>
+                </h6>
+                </p>
               </div>
-              <div class="col-lg-3">
-                <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-                  <!-- <div class="fourth-number number">
+            </div>
+            <div class="col-lg-3">
+              <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <!-- <div class="fourth-number number">
                     <h6>04</h6>
                   </div> -->
-                  <div class="icon"></div>
-                  <h4><div style="text-align:justify">Teknik Kendaraan Ringan (TKRO)</div></h4>
-                  <div class="line-dec"></div>
-                  <p>
-                    <h6><div style="text-align:left">
+                <div class="icon"></div>
+                <h4>
+                  <div style="text-align:justify">Teknik Kendaraan Ringan (TKRO)</div>
+                </h4>
+                <div class="line-dec"></div>
+                <p>
+                <h6>
+                  <div style="text-align:left">
                     Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).
-                    </div></h6>
-                  </p>
-                </div>
+                  </div>
+                </h6>
+                </p>
               </div>
             </div>
           </div>
@@ -260,4 +284,5 @@
       </div>
     </div>
   </div>
-  @endsection
+</div>
+@endsection
