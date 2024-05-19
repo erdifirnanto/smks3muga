@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 //SMK SMUGA
 use App\Http\Controllers\HomeController;
-
+use App\Http\Controllers\JurusanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -133,3 +133,4 @@ Route::get('/admin/logout', [LoginController::class, 'logout'])->name('admin.log
 
 //SMKS MUHAMMADIYAH 3 TEGALDLIMO
 Route::get('/profile', [HomeController::class, 'profile'])->name('profile.user');
+Route::get('/jurusan', [JurusanController::class, 'jurusan'])->name('jurusan.user');

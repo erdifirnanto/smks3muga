@@ -14,7 +14,7 @@
             <li class="scroll-to-section dropdown">
               <a href="" class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Sambutan</a></li>
+                <li><a class="dropdown-item" href="{{route('profile.user')}}">Sambutan</a></li>
                 <li><a class="dropdown-item" href="#">Visi Misi</a></li>
                 <li><a class="dropdown-item" href="#">Fasilitas</a></li>
               </ul>
