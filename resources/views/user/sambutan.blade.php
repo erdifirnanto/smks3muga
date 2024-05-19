@@ -72,7 +72,7 @@
             <div class="col-lg-8">
               <div class="right-content">
                 <h4>Ahmad Marzuki</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                <p>Guru Produktif Otomotif</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@
             <div class="col-lg-8">
               <div class="right-content">
                 <h4>Mariyati</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                <p>Guru Produktif APK</p>
               </div>
             </div>
           </div>
@@ -105,8 +105,8 @@
             </div>
             <div class="col-lg-8">
               <div class="right-content">
-                <h4>Nava Shoqibatul K.</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                <h4>Nava Shoqibatul</h4>
+                <p>Guru Produktif RPL</p>
               </div>
             </div>
           </div>
@@ -122,8 +122,8 @@
             </div>
             <div class="col-lg-8">
               <div class="right-content">
-                <h4>Optimizing Keywords</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                <h4>Muhamad Hadi</h4>
+                <p>Guru Produktif Otomotif</p>
               </div>
             </div>
           </div>
@@ -139,8 +139,8 @@
             </div>
             <div class="col-lg-8">
               <div class="right-content">
-                <h4>Page Optimizations</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                <h4>Khoirul Anam</h4>
+                <p>Guru Produktif OTKP</p>
               </div>
             </div>
           </div>
@@ -156,8 +156,8 @@
             </div>
             <div class="col-lg-8">
               <div class="right-content">
-                <h4>Deep URL Analysis</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                <h4>Luqman Fauzi</h4>
+                <p>Guru Produktif RPL</p>
               </div>
             </div>
           </div>
