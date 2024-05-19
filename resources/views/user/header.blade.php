@@ -5,7 +5,7 @@
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
-            <h4><img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:80px" alt="">SMK MUGA</h4>
+            <h4><img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:80px" alt="">SMUGA</h4>
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->

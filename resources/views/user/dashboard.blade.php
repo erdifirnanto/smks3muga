@@ -105,12 +105,10 @@
                 </svg>
                 <h4>Lingkungan Nyaman</h4>
                 <div class=""></div>
-                <h6>
-                  <p>
-                  <div style="text-align:left">
-                    Berada di lingkungan yang asri, aman, dan kondusif.
-                  </div>
-                </h6>
+                <h6><p>
+                  <div style="text-align:justify">
+                  Berada di lingkungan yang asri, aman, dan kondusif.
+                  </div></h6>
                 </p>
               </div>
             </div>
@@ -140,12 +138,10 @@
                 </svg>
                 <h4>Kerja Sama Luas</h4>
                 <div class=""></div>
-                <h6>
-                  <p>
-                  <div style="text-align:left">
-                    Lulusan langsung bekerja di perusahaan.
-                  </div>
-                </h6>
+                <h6><p>
+                  <div style="text-align:justify">
+                  Lulusan langsung bekerja di perusahaan.
+                  </div></h6>
                 </p>
               </div>
             </div>
@@ -183,8 +179,6 @@
   </div>
 </div>
 
-
-
 <div id="features" class="features section">
   <div id="services" class="our-services section">
     <div class="container">
@@ -197,6 +191,7 @@
       </div>
     </div>
   </div>
+</div>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -207,15 +202,12 @@
                 <!-- <div class="first-number number">
                     <h6>01</h6>
                   </div> -->
-
-                <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
-                <h4>
-                  <div style="text-align:justify">Pengembangan Perangkat Lunak & Gim (PPLG)</div>
-                </h4>
-                <div class="line-dec"></div>
-                <h6>
-                  <p>
-                  <div style="text-align:left">
+                  
+                  <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
+                  <h4><div style="text-align:center">Pengembangan Perangkat Lunak & Gim (PPLG)</div></h4>
+                  <div class="line-dec"></div>
+                  <h6><p>
+                    <div style="text-align:left">
                     Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.
                   </div>
                 </h6>
@@ -227,14 +219,11 @@
                 <!-- <div class="second-number number">
                     <h6>02</h6>
                   </div> -->
-                <div class="icon"></div>
-                <h4>
-                  <div style="text-align:justify">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div>
-                </h4>
-                <div class="line-dec"></div>
-                <h6>
-                  <p>
-                  <div style="text-align:left">
+                  <div class="icon"></div>
+                  <h4><div style="text-align:center">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div></h4>
+                  <div class="line-dec"></div>
+                  <h6><p>
+                    <div style="text-align:left">
                     Jurusan MPLB mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.
                   </div>
                 </h6>
@@ -246,14 +235,11 @@
                 <!-- <div class="third-number number">
                     <h6>03</h6>
                   </div> -->
-                <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
-                <h4>
-                  <div style="text-align:justify">Teknik Bisnis Sepeda Motor (TBSM)</div>
-                </h4>
-                <div class="line-dec"></div>
-                <p>
-                <h6>
-                  <div style="text-align:left">
+                  <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
+                  <h4><div style="text-align:center">Teknik Bisnis Sepeda Motor (TBSM)</div></h4>
+                  <div class="line-dec"></div>
+                  <p>
+                    <h6><div style="text-align:left">
                     If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.
                   </div>
                 </h6>
@@ -265,14 +251,11 @@
                 <!-- <div class="fourth-number number">
                     <h6>04</h6>
                   </div> -->
-                <div class="icon"></div>
-                <h4>
-                  <div style="text-align:justify">Teknik Kendaraan Ringan (TKRO)</div>
-                </h4>
-                <div class="line-dec"></div>
-                <p>
-                <h6>
-                  <div style="text-align:left">
+                  <div class="icon"></div>
+                  <h4><div style="text-align:center">Teknik Kendaraan Ringan (TKRO)</div></h4>
+                  <div class="line-dec"></div>
+                  <p>
+                    <h6><div style="text-align:left">
                     Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).
                   </div>
                 </h6>
