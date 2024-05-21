@@ -89,7 +89,7 @@
                 <div class=""></div>
                 <h6>
                   <p>
-                  <div style="text-align:left">
+                  <div style="text-align:justify;">
                     Sarana dan prasarana pendukung pembelajaran lengkap.
                   </div>
                 </h6>
@@ -143,7 +143,7 @@
                 <h6>
                   <p>
                   <div style="text-align:justify">
-                    Lulusan langsung bekerja di perusahaan.
+                    Lulusan langsung bekerja di perusahaan yang terkemuka.
                   </div>
                 </h6>
                 </p>
@@ -214,7 +214,7 @@
               <div class="line-dec"></div>
               <h6>
                 <p>
-                <div style="text-align:left">
+                <div style="text-align:center">
                   Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.
                 </div>
               </h6>
@@ -233,7 +233,7 @@
               <div class="line-dec"></div>
               <h6>
                 <p>
-                <div style="text-align:left">
+                <div style="text-align:center">
                   Jurusan MPLB mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.
                 </div>
               </h6>
@@ -252,7 +252,7 @@
               <div class="line-dec"></div>
               <p>
               <h6>
-                <div style="text-align:left">
+                <div style="text-align:center">
                   If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.
                 </div>
               </h6>
@@ -271,7 +271,7 @@
               <div class="line-dec"></div>
               <p>
               <h6>
-                <div style="text-align:left">
+                <div style="text-align:center">
                   Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).
                 </div>
               </h6>
