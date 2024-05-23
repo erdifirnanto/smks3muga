@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="right-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
           <img style="width:300px;" src="{{asset('user/assets/images/kepsek.jpg')}}" alt="">
         </div>
       </div>
@@ -233,8 +233,8 @@
         </div>
       </div>
     </div>
-    </div>
   </div>
+</div>
 </div>
 
 <div id="galery" class="our-portfolio section">

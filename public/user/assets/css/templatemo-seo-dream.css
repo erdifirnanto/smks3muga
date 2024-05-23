@@ -1299,6 +1299,13 @@ About Us Style
   margin-right: 45px;
 }
 
+.about-us .right-image {
+  margin-right: 45px;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+
 .about-us .about-item h4 {
   font-size:38px;
   font-weight: 800;
