@@ -83,7 +83,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
+                <img src="assets/images/mariati.png" alt="">
               </div>
             </div>
             <div class="col-lg-8">
@@ -100,7 +100,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
+                <img src="assets/images/navashoqibatul.png" alt="">
               </div>
             </div>
             <div class="col-lg-8">
@@ -117,7 +117,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
+                <img src="assets/images/hadi.png" alt="">
               </div>
             </div>
             <div class="col-lg-8">
@@ -134,7 +134,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="icon">
-                <img src="assets/images/service-icon-01.png" alt="">
+                <img src="assets/images/khoirulanam.png" alt="">
               </div>
             </div>
             <div class="col-lg-8">
@@ -163,6 +163,76 @@
           </div>
         </div>
       </div>
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="assets/images/khoirulanam.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>Dewi Hajar K.</h4>
+                <p>Bahasa Indonesia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon">
+              <img src="assets/images/mariati.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="right-content">
+              <h4>Mariyati</h4>
+              <p>Guru Produktif APK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon">
+              <img src="assets/images/navashoqibatul.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="right-content">
+              <h4>Nava Shoqibatul</h4>
+              <p>Guru Produktif RPL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon">
+              <img src="{{asset('user/assets/images/service-icon-02.png')}}" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="right-content">
+              <h4>Liya Elisya</h4>
+              <p>Al-Islam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 </div>
