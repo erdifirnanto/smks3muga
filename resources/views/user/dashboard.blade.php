@@ -214,7 +214,7 @@
               <div class="line-dec"></div>
               <h6>
                 <p>
-                <div style="text-align:center">
+                <div style="text-align:left">
                   Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.
                 </div>
               </h6>
@@ -227,13 +227,14 @@
                     <h6>02</h6>
                   </div> -->
               <div class="icon"></div>
+              <img style="max-width:110px;" src="{{asset('user/assets/images/mplb.png')}}" alt="">
               <h4>
                 <div style="text-align:center">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div>
               </h4>
               <div class="line-dec"></div>
               <h6>
                 <p>
-                <div style="text-align:center">
+                <div style="text-align:left">
                   Jurusan MPLB mempelajari segala jenis kegiatan kantor. Mulai dari pembukuan, pengarsipan, hingga public relations.
                 </div>
               </h6>
@@ -252,7 +253,7 @@
               <div class="line-dec"></div>
               <p>
               <h6>
-                <div style="text-align:center">
+                <div style="text-align:left">
                   If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.
                 </div>
               </h6>
@@ -271,7 +272,7 @@
               <div class="line-dec"></div>
               <p>
               <h6>
-                <div style="text-align:center">
+                <div style="text-align:left">
                   Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).
                 </div>
               </h6>

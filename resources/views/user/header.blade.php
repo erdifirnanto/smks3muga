@@ -5,7 +5,7 @@
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
-            <h4><img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:80px" alt="">SMUGA</h4>
+            <h4><img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:80px" alt="">SMK MUGA</h4>
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
@@ -28,20 +28,7 @@
               </ul>
             </li>
             <li class="scroll-to-section"><a href="{{route('jurusan.user')}}">Jurusan</a></li>
-            <li class="scroll-to-section dropdown">
-              <a href="" class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ekskul</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Ikatan Pelajar Muhammadiyah (IPM)</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Hizbul Wathan (HW)</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Tapak Suci</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Panahan</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Remaja Masjid</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Futsal dan Voly</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Palang Merah Remaja</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Seni Tari</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Mengemudi Mobil</a></li>
-                <li><a class="dropdown-item" href="{{route('ekskul.user')}}">Broadcasting</a></li>
-              </ul>
+            <li class="scroll-to-section"><a href="{{route('ekskul.user')}}">Ekskul</a></li>
             </li>
             <!-- dropdown end yaa cil -->
             <li class="scroll-to-section"><a href="{{route('galeri.user')}}">Galeri</a></li>
