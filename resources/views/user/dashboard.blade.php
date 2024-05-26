@@ -207,7 +207,7 @@
                     <h6>01</h6>
                   </div> -->
 
-              <img style="max-width:100px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
+              <img style="max-width:200px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
               <h4>
                 <div style="text-align:center">Pengembangan Perangkat Lunak & Gim (PPLG)</div>
               </h4>
@@ -221,13 +221,13 @@
               </p>
             </div>
           </div>
+
           <div class="col-lg-3">
             <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
               <!-- <div class="second-number number">
                     <h6>02</h6>
                   </div> -->
-              <div class="icon"></div>
-              <img style="max-width:110px;" src="{{asset('user/assets/images/mplb.png')}}" alt="">
+              <img style="max-width:200px;" src="{{asset('user/assets/images/mplb.png')}}" alt="">
               <h4>
                 <div style="text-align:center">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div>
               </h4>
@@ -246,7 +246,7 @@
               <!-- <div class="third-number number">
                     <h6>03</h6>
                   </div> -->
-              <img style="max-width:135px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
+              <img style="max-width:200px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
               <h4>
                 <div style="text-align:center">Teknik Bisnis Sepeda Motor (TBSM)</div>
               </h4>
@@ -260,12 +260,13 @@
               </p>
             </div>
           </div>
+
           <div class="col-lg-3">
             <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
               <!-- <div class="fourth-number number">
                     <h6>04</h6>
                   </div> -->
-              <div class="icon"></div>
+              <img style="max-width:200px;" src="{{asset('user/assets/images/mplb.png')}}" alt="">
               <h4>
                 <div style="text-align:center">Teknik Kendaraan Ringan (TKRO)</div>
               </h4>
