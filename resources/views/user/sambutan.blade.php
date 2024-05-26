@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="right-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:300px;" src="{{asset('user/assets/images/kepsek.jpg')}}" alt="">
+          <img style="width:300px;" src="{{asset('user/assets/images/kepsek.png')}}" alt="">
         </div>
       </div>
       <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">

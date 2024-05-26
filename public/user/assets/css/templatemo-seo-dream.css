@@ -1302,7 +1302,7 @@ About Us Style
 .about-us .right-image {
   margin-right: 45px;
   padding-left: 60px;
-  padding-top: 40px;
+  /* padding-top: 10px; */
 }
 
 
