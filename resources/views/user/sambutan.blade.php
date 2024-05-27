@@ -58,8 +58,10 @@
       </div>
     </div>
   </div>
+
   <div class="container-fluid">
     <div class="row">
+
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
@@ -167,286 +169,290 @@
           </div>
         </div>
       </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/luqman.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Luqman Fauzi, S.Kom.</h4>
+            <p>Produktif RPL/Informatika</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/habib.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>M. Habib Munir, S.Pd.</h4>
+            <p>Matematika/Sejarah Indonesia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/sugeng.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Sugeng Widodo, S.Pd.</h4>
+            <p> Guru BK</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/nurul.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Nurul Azizah, S.Pd.</h4>
+            <p>Guru IPAS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/febri.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Febriyan Eka P., S.Si.</h4>
+            <p>Guru IPAS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/liya.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Liya Elisya, M.Pd.</h4>
+            <p>Guru ISMUBA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/sri.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Sri Kasanah, S.Ag.</h4>
+            <p>Guru Mulok B. Jawa/ ISMUBA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/ditia.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Ditia Puspita D., S.Pd.</h4>
+            <p>Guru Matematika</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/unsa.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Unsa Aulia Rosanti, S.Pd.</h4>
+            <p>Guru ISMUBA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/rendi.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Rendi Zulfikar</h4>
+            <p>Guru Produktif Otomotif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/fera.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Fera Rizkyana, S.Pd.</h4>
+            <p>Guru Bahasa Inggris</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/navashoqibatul.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Nava Shoqibatul K., S.Tr.Kom.</h4>
+            <p>Guru Produktif RPL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/khoirulanam.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Khoirul Anam, M.M.</h4>
+            <p>Guru Produktif OTKP/ B. Inggris</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Candra Yustia D., S.Pd.</h4>
+            <p>Guru PPKN</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Rendi Kurniawan, S.Pd.</h4>
+            <p>Guru BK</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Febi Islam R., S.T.</h4>
+            <p>Guru Produktif Otomotif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Anang Hermawan, S.Kom.</h4>
+            <p>Guru Informatika</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Faizatul Cholidah., S.H.</h4>
+            <p>Guru ISMUBA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Amar Abdul Aziz</h4>
+            <p>Guru Produktif Otomotif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Mahendra</h4>
+            <p>Guru Produktif Otomotif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Muhammad Rizki A.</h4>
+            <p>Guru Produktif Otomotif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Rino</h4>
+            <p>Guru Produktif Otomtif</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="icon">
+            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+          </div>
+          <div style="padding-top:20px;" class="description">
+            <h4>Nisa</h4>
+            <p>Guru Bahasa Inggris</p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </div>
 
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/luqman.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Luqman Fauzi, S.Kom.</h4>
-      <p>Produktif RPL/Informatika</p>
-    </div>
-  </div>
-</div>
 
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/habib.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>M. Habib Munir, S.Pd.</h4>
-      <p>Matematika/Sejarah Indonesia</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/sugeng.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Sugeng Widodo, S.Pd.</h4>
-      <p> Guru BK</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/nurul.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Nurul Azizah, S.Pd.</h4>
-      <p>Guru IPAS</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/febri.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Febriyan Eka P., S.Si.</h4>
-      <p>Guru IPAS</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/liya.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Liya Elisya, M.Pd.</h4>
-      <p>Guru ISMUBA</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/sri.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Sri Kasanah, S.Ag.</h4>
-      <p>Guru Mulok B. Jawa/ ISMUBA</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/ditia.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Ditia Puspita D., S.Pd.</h4>
-      <p>Guru Matematika</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/unsa.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Unsa Aulia Rosanti, S.Pd.</h4>
-      <p>Guru ISMUBA</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/rendi.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Rendi Zulfikar</h4>
-      <p>Guru Produktif Otomotif</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/fera.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Fera Rizkyana, S.Pd.</h4>
-      <p>Guru Bahasa Inggris</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/navashoqibatul.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Nava Shoqibatul K., S.Tr.Kom.</h4>
-      <p>Guru Produktif RPL</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/khoirulanam.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Khoirul Anam, M.M.</h4>
-      <p>Guru Produktif OTKP/ B. Inggris</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Candra Yustia D., S.Pd.</h4>
-      <p>Guru PPKN</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Rendi Kurniawan, S.Pd.</h4>
-      <p>Guru BK</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Febi Islam R., S.T.</h4>
-      <p>Guru Produktif Otomotif</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Anang Hermawan, S.Kom.</h4>
-      <p>Guru Informatika</p>
-    </div>
-  </div>
-</div>
-
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Faizatul Cholidah., S.H.</h4>
-      <p>Guru ISMUBA</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Amar Abdul Aziz</h4>
-      <p>Guru Produktif Otomotif</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Mahendra</h4>
-      <p>Guru Produktif Otomotif</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Muhammad Rizki A.</h4>
-      <p>Guru Produktif Otomotif</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Rino</h4>
-      <p>Guru Produktif Otomtif</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-lg-4">
-  <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-    <div class="icon">
-      <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
-    </div>
-    <div style="padding-top:20px;" class="description">
-      <h4>Nisa</h4>
-      <p>Guru Bahasa Inggris</p>
-    </div>
-  </div>
-</div>
 
 
 @endsection
