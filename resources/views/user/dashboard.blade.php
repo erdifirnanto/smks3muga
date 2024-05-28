@@ -254,8 +254,7 @@
               <p>
               <h6>
                 <div style="text-align:left">
-                  If this template is useful for your website, please consider to <a rel="nofollow" href="https://www.paypal.me/templatemo" target="_blank">support us</a> a little.
-                </div>
+                  Jurusan TBSM adalah salah satu cabang ilmu teknik mesin yang mempelajari tentang bagaimana merancang, membuat dan mengembangkan alat-alat transportasi darat yang menggunakan mesin, terutama sepeda motor.
               </h6>
               </p>
             </div>

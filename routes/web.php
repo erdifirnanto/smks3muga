@@ -23,6 +23,8 @@ use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\GaleriController;
 
 use App\Http\Controllers\KontakController;
+use App\Http\Controllers\PpdbController;
+
 
 
 
@@ -151,3 +153,4 @@ Route::get('/ekskul', [EkskulController::class, 'ekskul'])->name('ekskul.user');
 Route::get('/galeri', [GaleriController::class, 'galeri'])->name('galeri.user');
 
 Route::get('/kontak', [KontakController::class, 'kontak'])->name('kontak.user');
+Route::get('/ppdb', [PpdbController::class, 'ppdb'])->name('ppdb.user');

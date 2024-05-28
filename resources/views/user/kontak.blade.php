@@ -54,7 +54,7 @@
                     <div class="icon">
                       <img src="{{asset('user/assets/images/contact-icon-01.png')}}" alt="email icon">
                     </div>
-                    <a href="#">admsmkmuga@gmail.com</a>
+                    <a href="#">smkmuhammadiyah3tegaldlimo@gmail.com</a>
                   </li>
                   <li>
                     <div class="icon">

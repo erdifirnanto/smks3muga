@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class PpdbController extends Controller
 {
-    //
+    public function ppdb()
+    {
+        return view('user.ppdb');
+    }
 }

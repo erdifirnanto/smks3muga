@@ -89,7 +89,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/syamsul.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/syamsulhuda.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Syamsul Huda, S.THI</h4>
@@ -341,7 +341,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/rendi.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Rendi Kurniawan, S.Pd.</h4>
@@ -378,7 +378,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/faiza.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Faizatul Cholidah., S.H.</h4>
@@ -390,7 +390,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/amar.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Amar Abdul Aziz</h4>
@@ -438,7 +438,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/nisa.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Nisa</h4>
