@@ -33,7 +33,7 @@
             <!-- dropdown end yaa cil -->
             <li class="scroll-to-section"><a href="{{route('galeri.user')}}">Galeri</a></li>
             <li class="scroll-to-section"><a href="{{route('kontak.user')}}">Kontak</a></li>
-            <li class="scroll-to-section"><a href="#contact">PPDB</a></li>
+            <li class="scroll-to-section"><a href="{{route('ppdb.user')}}">PPDB</a></li>
             <!-- <li class="scroll-to-section"><div class="main-blue-button"><a href="#contact">Get Your Quote</a></div></li>  -->
           </ul>
           <a class='menu-trigger'>
