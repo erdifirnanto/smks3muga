@@ -4,7 +4,7 @@
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
   <div class="container">
     <div class="row">
-      <div class="col-lg-14">
+      <div class="col-lg-14 mt-5">
         <div class="row">
           <div class="col-lg-10 align-self-center">
             <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">

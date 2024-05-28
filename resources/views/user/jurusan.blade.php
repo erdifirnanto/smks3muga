@@ -4,7 +4,8 @@
 <div id="about" class="about-us section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      
+    <div class="col-lg-6">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
           <img style="width:300px;" src="{{asset('user/assets/images/praktikpplg.jpg')}}" alt="">
         </div>
