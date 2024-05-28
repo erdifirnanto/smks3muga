@@ -12,7 +12,7 @@
       </div>
       <div class="col-12 mt-6">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width: 100%; height: auto;" src="{{asset('user/assets/images/posterppdb.jpg')}}" alt="">
+          <img style="width: 80%; height: auto;" src="{{asset('user/assets/images/posterppdb.jpg')}}" alt="">
         </div>
       </div>
       <div class="col-12 mt-3">
@@ -24,7 +24,7 @@
         <a href="https://wa.me/081230400703" target="_blank" class="btn btn-success">
           <i class="fa fa-whatsapp"></i> Hubungi Kami di WhatsApp
         </a>
-        <a href="" target="_blank" class="btn btn-primary">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScZo4GcffXLhxRgBKYXenJKfBCWyQHidvLr2rFi6Cbu_LmLdg/viewform" target="_blank" class="btn btn-primary">
           Daftar Sekarang
         </a>
       </div>
