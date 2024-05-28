@@ -27,6 +27,9 @@
         <a href="" target="_blank" class="btn btn-primary">
           Daftar Sekarang
         </a>
+        <a href="" target="_blank" class="btn btn-primary">
+          Syarat Pendaftaran
+        </a>
       </div>
     </div>
   </div>
