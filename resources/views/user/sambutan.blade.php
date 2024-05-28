@@ -35,6 +35,10 @@
               </div>
             </div>
           </div> -->
+        <h5 style="text-align: center;">
+          بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h5>
+        <h5 style="text-align: center;">
+          ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ</h5>
         <p>
           <!-- <a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a> -->
         <div style="text-align:justify">
@@ -42,7 +46,7 @@
           Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya, sehingga dapat menjalin silaturahmi yang erat di segala unsur. Mari kita bekerja dan berkarya dengan mengharap ridho sang Kuasa dan keikhlasan yang tulus demi anak bangsa.
         </div>
         </p>
-        <!-- <div class="main-green-button mt-4"><a href="#">Discover company</a></div> -->
+        <div class="main-green-button mt-4"><a href="#">RAHMI NUR AINI, M.PD.</a></div>
       </div>
     </div>
   </div>
