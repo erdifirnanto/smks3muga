@@ -52,16 +52,16 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:500px;" src="{{asset('user/assets/images/praktikpplg.jpg')}}" alt=""> <!-- Ini Foto -->
+          <img style="width:500px;" src="{{asset('user/assets/images/praktiktbsm.jpg')}}" alt=""> <!-- Ini Foto -->
         </div>
       </div>
       <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
         <div style="text-align: center;" class="section-heading">
-          <h2>Judul</h2>
+          <h2>Teknik Bisnis Sepeda Motor</h2>
         </div>
         <p>
         <div style="text-align:justify">
-          Deskripsi
+          Jurusan TBSM adalah salah satu cabang ilmu teknik mesin yang mempelajari tentang bagaimana merancang, membuat dan mengembangkan alat-alat transportasi darat yang menggunakan mesin, terutama sepeda motor.
         </div>
       </div>
     </div>
@@ -70,16 +70,16 @@
       <div class="col-lg-6">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
           <div style="text-align: center;" class="section-heading">
-            <h2>Judul Isi dah</h2>
+            <h2>Teknik Kendaraan Ringan Otomotif</h2>
           </div>
           <p>
           <div style="text-align:justify">
-            Deskripsi isi
+            Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).
           </div>
         </div>
       </div>
       <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <img style="width:550px;" src="{{asset('user/assets/images/praktikmplb.jpg')}}" alt=""> <!--Fotonya Disini Cil-->
+        <img style="width:550px;" src="{{asset('user/assets/images/praktiktkro.jpg')}}" alt=""> <!--Fotonya Disini Cil-->
       </div>
     </div>
   </div>
