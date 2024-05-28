@@ -11,8 +11,8 @@
               <div class="row">
                 <div class="col-lg-7 col-sm-7">
                   <div class="info-stat">
-                    <h3>Selamat Datang di Kampus</h3>
-                    <h3>SMKS Muhammadiyah 3 Tegaldlimo</h3>
+                    <h3 style="color: white;">Selamat Datang di Kampus</h3>
+                    <h3 style="color: white;">SMKS Muhammadiyah 3 Tegaldlimo</h3>
                     <div class="col-lg-12 mt-4">
                       <div class="main-green-button scroll-to-section">
                         <a href="#contact">Yuk Daftar!</a>
@@ -41,7 +41,7 @@
 
                 <div class="col-lg-7 col-sm-7 mt-4">
                   <div class="info-stat">
-                    <h4>ISLAMI SANTUN & PROFESIONAL</h4>
+                    <h4 style="color: white;">ISLAMI SANTUN & PROFESIONAL</h4>
                     <!-- <h3>SMKS Muhammadiyah 3 Tegaldlimo</h3> -->
                     <!-- <h6>Agency Status:</h6> -->
                   </div>
