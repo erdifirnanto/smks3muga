@@ -46,7 +46,7 @@
           Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya, sehingga dapat menjalin silaturahmi yang erat di segala unsur. Mari kita bekerja dan berkarya dengan mengharap ridho sang Kuasa dan keikhlasan yang tulus demi anak bangsa.
         </div>
         </p>
-        <div class="main-green-button mt-4"><a href="#">RAHMI NUR AINI, M.PD.</a></div>
+        <!-- <div class="main-green-button mt-4"><a href="#">RAHMI NUR AINI, M.PD.</a></div> -->
       </div>
     </div>
   </div>
