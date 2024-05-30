@@ -15,7 +15,7 @@
                     <h3 style="color: white;">SMKS Muhammadiyah 3 Tegaldlimo</h3>
                     <div class="col-lg-12 mt-4">
                       <div class="main-green-button scroll-to-section">
-                        <a href="#contact">Yuk Daftar!</a>
+                        <a href="{{route('ppdb.user')}}">Yuk Daftar!</a>
                       </div>
                     </div>
                     <!-- <h6>Agency Status:</h6> -->
