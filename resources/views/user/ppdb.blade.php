@@ -8,10 +8,12 @@
         <div class="section-heading">
           <h2>Informasi Penerimaan Peserta Didik Baru
             Tahun Pelajaran 2024 - 2025</h2>
+            <h4>Hadapi dengan optimis dan semangat mengasah diri dalam mengukir prestasi</h4>
         </div>
       </div>
       <div class="col-12 mt-6">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+          <img style="width: 80%; height: auto; margin-bottom:10px" src="{{asset('user/assets/images/grandopening.png')}}" alt="">
           <img style="width: 80%; height: auto;" src="{{asset('user/assets/images/posterppdb.jpg')}}" alt="">
         </div>
       </div>
@@ -26,9 +28,6 @@
         </a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScZo4GcffXLhxRgBKYXenJKfBCWyQHidvLr2rFi6Cbu_LmLdg/viewform" target="_blank" class="btn btn-primary">
           Daftar Sekarang
-        </a>
-        <a href="" target="_blank" class="btn btn-primary">
-          Syarat Pendaftaran
         </a>
       </div>
     </div>

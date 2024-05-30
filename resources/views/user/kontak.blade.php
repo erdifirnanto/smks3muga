@@ -15,27 +15,27 @@
             </div>
             <div class="col-lg-9">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                   <fieldset>
                     <input type="name" name="name" id="name" placeholder="Nama Depan" autocomplete="on" required>
                   </fieldset>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                   <fieldset>
                     <input type="surname" name="surname" id="surname" placeholder="Nama Belakang" autocomplete="on" required>
                   </fieldset>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                   <fieldset>
                     <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email Kamu" required="">
                   </fieldset>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                   <fieldset>
                     <input type="subject" name="subject" id="subject" placeholder="Subjek" autocomplete="on">
                   </fieldset>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-10">
                   <fieldset>
                     <textarea name="message" type="text" class="form-control" id="message" placeholder="Pesan" required=""></textarea>
                   </fieldset>
@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-5">
               <div class="contact-info">
                 <ul>
                   <li>
