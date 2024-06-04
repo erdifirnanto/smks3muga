@@ -93,7 +93,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/syamsulhuda.jpg')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/syamsul.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Syamsul Huda, S.Th.I</h4>
@@ -309,7 +309,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/tutik.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Tutik Wahyuni</h4>
@@ -321,7 +321,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/katimin.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Katimin</h4>
@@ -333,7 +333,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/rena.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Meirena Tri Nur Aida, S.T.</h4>
@@ -381,7 +381,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/qori.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Qoriah Nur Umami, A.Md.Kom</h4>
@@ -453,7 +453,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/risqi.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Mohammad Rizqi A.</h4>
@@ -477,7 +477,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/no.png')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/candra.jpg')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Candra Yustia D., S.Pd.</h4>
