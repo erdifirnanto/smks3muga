@@ -1,9 +1,9 @@
 <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <div class="sidebar-brand d-flex align-items-center justify-content-center" >
-        <img width="40px" src="{{asset('admin/img/logo-sekolah.png')}}" alt="">
-        <div class="sidebar-brand-text mx-3">Saifinda</div>
+    <div class="sidebar-brand d-flex align-items-center justify-content-center">
+        <img width="40px" src="{{asset('user/assets/images/logo_muga.png')}}" alt="">
+        <div class="sidebar-brand-text mx-3">SMUGA</div>
     </div>
 
     <!-- Divider -->
