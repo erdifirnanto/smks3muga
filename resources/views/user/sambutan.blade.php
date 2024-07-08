@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="right-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:300px;" src="{{asset('user/assets/images/rahmi.png')}}" alt="">
+          <img style="width:400px;" src="{{asset('user/assets/images/rahmi.png')}}" alt="">
         </div>
       </div>
       <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -42,8 +42,11 @@
         <p>
           <!-- <a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a> -->
         <div style="text-align:justify">
-          Selamat datang di website SMK Muhammadiyah 3 Tegaldlimo yang saya tujukan untuk seluruh unsur pimpinan, guru, karyawan dan siswa serta khalayak umum guna dapat mengakses seluruh informasi tentang sekolah kami. Tentunya dalam penyajian informasi masih banyak kekurangan, oleh karena itu kepada seluruh civitas akademika dan masyarakat umum dapat memberikan saran dan kritik demi kemajuan lebih lanjut.
-          Saya berharap Website ini dapat dijadikan wahana interaksi yang positif baik antar civitas akademika maupun masyarakat pada umumnya, sehingga dapat menjalin silaturahmi yang erat di segala unsur. Mari kita bekerja dan berkarya dengan mengharap ridho sang Kuasa dan keikhlasan yang tulus demi anak bangsa.
+          Puji syukur kami panjatkan kehadirat Allah SWT atas rahmat dan hidayahNya kita masih diberikan kesehatan, kekuatan dalam melaksanakan aktivitas. Sholawat beserta salam selalu tercurah kepada nabi agung Muhammad SAW, keluarga, sahabat, dan umatnya yang telah membawa zaman kegelapan sampai zaman pencerahan.</div><br>
+
+          <div style="text-align:justify">SMK Muhammadiyah 3 Tegaldlimo sebagai lembaga pendidikan kejuruan. Dengan 3 program keahlian yang dikembangkan yaitu Pengembangan Perangkat Lunak dan Gim (PPLG), Manajemen Perkantoran dan Layanan Bisnis (MPLB), Teknik Bisnis dan Sepeda Motor (TBSM), Teknik Kendaraan Ringan Otomotif (TKRO) yang sudah terakreditasi “B”.</div><br> 
+
+          <div style="text-align:justify">Fasilitas pembelajaran baik fasilitas ruang praktik, peralatan praktik atau fasilitas umum lainnya sudah mendukung untuk pembelajaran peserta didik. Pengembangan bakat peserta didik di tampung dalam wadah ekstrakurikuler, dan kegiatan-kegiatan lain yang mendukung karakter peserta didik. Kerjasama dengan dunia usaha, dunia industri dan dunia kerja untuk mengembangkan kompetensi peserta didik dilakukan untuk menyesuaikan dengan tuntutan pasar kerja. Harapannya lulusan SMK Muhammadiyah 3 Tegaldlimo siap bekerja, berwirausaha dan melanjutkan sesuai dengan bidang keahlian untuk menjadi generasi dan kader yang membanggakan orang tua, masyarakat dan sekolah, serta mampu memberikan kontribusi positif kepada bangsa dan Negara.</div>
         </div>
         </p>
         <!-- <div class="main-green-button mt-4"><a href="#">RAHMI NUR AINI, M.PD.</a></div> -->
@@ -381,7 +384,7 @@
       <div class="col-lg-4">
         <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="icon">
-            <img src="{{asset('user/assets/images/qori.jpg')}}" alt="Ahmad Marzuki">
+            <img src="{{asset('user/assets/images/qori.png')}}" alt="Ahmad Marzuki">
           </div>
           <div style="padding-top:20px;" class="description">
             <h4>Qoriah Nur Umami, A.Md.Kom</h4>
