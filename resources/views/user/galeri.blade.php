@@ -15,11 +15,13 @@
   <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
     <div class="row">
       <div class="col-lg-12">
+        @foreach ($data as $item => $row)
+
         <div class="loop owl-carousel">
           <div class="item">
             <div class="portfolio-item">
               <div class="thumb">
-                <img src="{{asset('user/assets/images/olingriver.jpg')}}" alt="">
+                <img src="{{ asset('storage/'.$row->foto_prestasi) }}" alt="">
                 <div class="hover-content">
                   <div class="inner-content">
                     <a href="#">
@@ -30,128 +32,10 @@
                 </div>
               </div>
             </div>
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/downhill.jpeg')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 102</h4>
-                    </a>
-                    <span>Branding</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
-          @foreach ($data as $item => $row)
-          <li class="work-item thumnail-img mix corporate">
-            <div class="work-image">
-              <img src="{{ asset('storage/'.$row->foto_prestasi) }}" alt="thumbnail" />
+@endforeach
 
-              <!--Hover link-->
-              <div class="hover-link">
-                <a href="{{ asset('storage/'.$row->foto_prestasi) }}" class="popup-image">
-                  <i class="fa fa-plus"></i>
-                </a>
-              </div>
-              <!--End link-->
-
-              <!--Hover Caption-->
-              <div class="work-caption">
-                <h4>{{$row->judul_prestasi}}</h4>
-                <p>{{$row->jenis_prestasi}}</p>
-              </div>
-              <!--End Caption-->
-            </div>
-            <!-- /.work-image-->
-          </li>
-          @endforeach
-          <div class="item">
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/e-sport.jpeg')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 103</h4>
-                    </a>
-                    <span>Consulting</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/kwu.jpg')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 104</h4>
-                    </a>
-                    <span>Artwork</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/fotbar1.jpg')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 105</h4>
-                    </a>
-                    <span>Branding</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/downhill2.jpeg')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 106</h4>
-                    </a>
-                    <span>Artwork</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/fotbar2.jpg')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 107</h4>
-                    </a>
-                    <span>Creative</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{asset('user/assets/images/km7.png')}}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 108</h4>
-                    </a>
-                    <span>Consulting</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>

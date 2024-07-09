@@ -12,6 +12,7 @@ class GaleriController extends Controller
     public function galeri()
     {
         $data = prestasi::all();
-        return view('user.galeri', compact('data'));
+        $prestasi = prestasi::orderBy('created_at', 'desc')->get();
+        return view('user.galeri', compact('data', 'prestasi'));
     }
 }

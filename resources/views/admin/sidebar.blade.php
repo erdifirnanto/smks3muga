@@ -56,15 +56,15 @@
     <li class="nav-item">
         <a class="nav-link" href="{{route('prestasi_admin')}}">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Prestasi</span></a>
+            <span>Foto</span></a>
     </li>
 
-    <!-- Nav Item - Tables -->
+    <!-- Nav Item - Tables
     <li class="nav-item">
         <a class="nav-link" href="{{route('vidio_admin')}}">
             <i class="fas fa-fw fa-table"></i>
             <span>Vidio</span></a>
-    </li>
+    </li> -->
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Testing\File;
 use Illuminate\Support\Facades\Storage;
 
+
 class PrestasiController extends Controller
 {
     /**
@@ -17,6 +18,7 @@ class PrestasiController extends Controller
     public function index()
     {
         $data = prestasi::all();
+        // dd($data);
         return view('admin.prestasi_admin.view_prestasi', compact('data'));
     }
 
@@ -40,9 +42,10 @@ class PrestasiController extends Controller
     {
         $user = new prestasi();
         if ($request->hasFile('foto_prestasi')) {
-            $foto=$request->file('foto_prestasi')->store('fotoPrestasi');
+            // $foto = $request->file('foto_prestasi')->store('fotoPrestasi');
+            $foto = $request->file('foto_prestasi')->store('fotoPrestasi', 'public');
         }
-       
+
         $user->judul_prestasi           = $request->judul_prestasi;
         $user->jenis_prestasi           = $request->jenis_prestasi;
         $user->foto_prestasi = $foto;
@@ -84,14 +87,14 @@ class PrestasiController extends Controller
     {
         $user = prestasi::find($id);
         if ($request->hasFile('foto_prestasi')) {
-            $foto=$request->file('foto_prestasi')->store('fotoPrestasi');
+            $foto = $request->file('foto_prestasi')->store('fotoPrestasi');
             $user->foto_prestasi            = $foto;
         }
-       
+
         $user->judul_prestasi           = $request->judul_prestasi;
         $user->jenis_prestasi           = $request->jenis_prestasi;
         $user->created_at               = $request->created_at;
-        
+
         $user->update();
         return redirect()->route('prestasi_admin')->withSuccess('Data Berhasil Diedit');
     }
@@ -106,10 +109,9 @@ class PrestasiController extends Controller
     {
         $prestasi = prestasi::find($id);
         $prestasi->delete();
-        if ($prestasi->foto_prestasi != null || $prestasi->foto_prestasi ='' ){
+        if ($prestasi->foto_prestasi != null || $prestasi->foto_prestasi = '') {
             Storage::delete($prestasi->foto_prestasi);
         }
         return redirect()->back();
-    
     }
 }
