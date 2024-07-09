@@ -59,7 +59,7 @@ class PendaftaranController extends Controller
         $user->nohp            = $request->nohp;
         $user->email            = $request->email;
         if ($request->hasFile('foto_murid')) {
-            $foto_murid=$request->file('foto_murid')->store('foto_murid');
+            $foto_murid=$request->file('foto_murid')->store('foto_murid', 'public');
             $user->foto_murid = $foto_murid;
         }
         

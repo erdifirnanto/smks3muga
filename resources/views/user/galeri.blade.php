@@ -1,43 +1,35 @@
 @extends('user.master')
 @section('master')
 
-<div id="galery" class="our-portfolio section">
+<h1 class="text-center mb-0">.</h1>
+<p class="text-center mb-4">.</p>
+
+<section class="photo-gallery mt-5">
+  <h1 class="text-center mb-4">Galery SMK Muhammadiyah 3 Tegaldlimo</h1>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-5">
-        <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-          <h6>Galeri Kami</h6>
-          <h2>Temukan <em>Moment</em> Terkini <span>Kita</span></h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gallery-grid">
+      @foreach ($data as $item => $row)
+      <div class="col">
+        <a class="gallery-item" href="{{ asset('storage/'.$row->foto_prestasi) }}">
+          <img src="{{ asset('storage/'.$row->foto_prestasi) }}" class="img-fluid" alt="Lorem ipsum dolor sit amet" style="max-width: 400px;">
+        </a>
+      </div>
+      @endforeach
+    </div>
+  </div>
+</section>
+
+<div class="modal fade lightbox-modal" id="lightbox-modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+    <div class="modal-content">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="lightbox-content">
+          <!-- JS content here -->
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-    <div class="row">
-      <div class="col-lg-12">
-        @foreach ($data as $item => $row)
-
-        <div class="loop owl-carousel">
-          <div class="item">
-            <div class="portfolio-item">
-              <div class="thumb">
-                <img src="{{ asset('storage/'.$row->foto_prestasi) }}" alt="">
-                <div class="hover-content">
-                  <div class="inner-content">
-                    <a href="#">
-                      <h4>Awesome Project 101</h4>
-                    </a>
-                    <span>Marketing</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-@endforeach
-
-      </div>
-    </div>
-  </div>
 </div>
+
 @endsection

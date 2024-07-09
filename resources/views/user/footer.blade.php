@@ -2,15 +2,15 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mt-5">
-        <a href="index.html" class="logo">
+        <a href="/" class="logo">
           <h4><img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:150px" alt=""></h4>
         </a>
-        <h4 class="mt-3">Jam Kerja</h4></br>
+        <h1 class="fa mt-3">Jam Kerja</h1></br>
         <ul>
-          <li>Senin - Jumat: 08.00 - 17.00</li>
-          <li>Sabtu: 08.00 - 12.00</li>
-          <li>Minggu: Libur</li>
+          <li class="fa"> Pukul 06.30 - 14.00 WIB, Senin - Sabtu</li>
+          <li class="fa"> Sumber Luhur, Tegaldlimo, Banyuwangi Regency, East Java 68484</li>
         </ul>
+
 
       </div>
       <div class="col-lg-6 mt-5">

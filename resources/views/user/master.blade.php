@@ -1,28 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-hZD/e+TzuoHVZjW22c/JOJkuY/nH5E/njOioL/6dVYF0I+uT8vV0H5sUQ+sWwu8h8R3w1Zz8mVJAKYT7u7Jx3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="{{asset('user/assets/images/logo_muga.png')}}" type="image/png">
+  <title>SMKS Muhammadiyah 3 Tegaldlimo</title>
 
-    <title>SMKS Muhammadiyah 3 Tegaldlimo</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{asset('user/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="{{asset('user/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="{{asset('user/assets/css/fontawesome.css')}}">
-    <link rel="stylesheet" href="{{asset('user/assets/css/templatemo-seo-dream.css')}}">
-    <link rel="stylesheet" href="{{asset('user/assets/css/animated.css')}}">
-    <link rel="stylesheet" href="{{asset('user/assets/css/owl.css')}}">
-<!--
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="{{asset('user/assets/css/fontawesome.css')}}">
+  <link rel="stylesheet" href="{{asset('user/assets/css/templatemo-seo-dream.css')}}">
+  <link rel="stylesheet" href="{{asset('user/assets/css/animated.css')}}">
+  <link rel="stylesheet" href="{{asset('user/assets/css/owl.css')}}">
+  <!--
 
 TemplateMo 563 SEO Dream
 
@@ -53,7 +53,7 @@ https://templatemo.com/tm-563-seo-dream
 
   <!-- ***** Header Area End ***** -->
   @yield('master')
-  
+
 
   @include('user.footer')
 
@@ -66,4 +66,5 @@ https://templatemo.com/tm-563-seo-dream
   <script src="{{asset('user/assets/js/custom.js')}}"></script>
 
 </body>
+
 </html>
