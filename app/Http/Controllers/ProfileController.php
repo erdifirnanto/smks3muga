@@ -20,4 +20,8 @@ class ProfileController extends Controller
     {
         return view('user.fasilitas');
     }
+    public function strukturorganisasi()
+    {
+        return view('user.strukturorganisasi');
+    }
 }

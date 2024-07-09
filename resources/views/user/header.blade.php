@@ -17,6 +17,7 @@
                 <li><a class="dropdown-item" href="{{route('sambutan.user')}}">Sambutan</a></li>
                 <li><a class="dropdown-item" href="{{route('visimisi.user')}}">Visi Misi</a></li>
                 <li><a class="dropdown-item" href="{{route('fasilitas.user')}}">Fasilitas</a></li>
+                <li><a class="dropdown-item" href="{{route('strukturorganisasi.user')}}">Struktur Organisasi</a></li>
               </ul>
             </li>
             <!-- dropdown start cil-->

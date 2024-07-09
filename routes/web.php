@@ -146,6 +146,7 @@ Route::get('/admin/logout', [LoginController::class, 'logout'])->name('admin.log
 Route::get('/sambutan', [ProfileController::class, 'sambutan'])->name('sambutan.user');
 Route::get('/visimisi', [ProfileController::class, 'visimisi'])->name('visimisi.user');
 Route::get('/fasilitas', [ProfileController::class, 'fasilitas'])->name('fasilitas.user');
+Route::get('/strukturorganisasi', [ProfileController::class, 'strukturorganisasi'])->name('strukturorganisasi.user');
 Route::get('/berita', [InformasiController::class, 'berita'])->name('berita.user');
 Route::get('/event', [InformasiController::class, 'event'])->name('event.user');
 Route::get('/jurusan', [JurusanController::class, 'jurusan'])->name('jurusan.user');
