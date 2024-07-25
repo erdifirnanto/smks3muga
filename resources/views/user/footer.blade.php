@@ -21,7 +21,7 @@
     </div>
     <div class="row">
       <div style="color: #fff;" class="col-lg-12">
-        <p>Copyright © 2024 Kampus Mengajar Angkatan 7 - Poliwangi.</p>
+        <h5 style="text-align: center; padding: 30px;">Copyright © 2024 Kampus Mengajar Angkatan 7 - Poliwangi.</h5>
       </div>
     </div>
   </div>
