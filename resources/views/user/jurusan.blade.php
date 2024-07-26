@@ -36,6 +36,80 @@
       </div>
     </div>
   </div>
+
+  <!-- produk -->
+  <section class="produk">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+            <div class="back">
+              <h1>Web Developer</h1>
+              <p>Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Rem
+                possimus reiciendis ipsam ab
+                distinctio quia tenetur quos sequi
+                facere quisquam. Iusto perspiciatis
+                tempore expedita numquam excepturi
+                dolorum debitis. Expedita,
+                deserunt!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+            <div class="back">
+              <h1>Web Developer</h1>
+              <p>Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Rem
+                possimus reiciendis ipsam ab
+                distinctio quia tenetur quos sequi
+                facere quisquam. Iusto perspiciatis
+                tempore expedita numquam excepturi
+                dolorum debitis. Expedita,
+                deserunt!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+            <div class="back">
+              <h1>Web Developer</h1>
+              <p>Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Rem
+                possimus reiciendis ipsam ab
+                distinctio quia tenetur quos sequi
+                facere quisquam. Iusto perspiciatis
+                tempore expedita numquam excepturi
+                dolorum debitis. Expedita,
+                deserunt!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+            <div class="back">
+              <h1>Web Developer</h1>
+              <p>Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Rem
+                possimus reiciendis ipsam ab
+                distinctio quia tenetur quos sequi
+                facere quisquam. Iusto perspiciatis
+                tempore expedita numquam excepturi
+                dolorum debitis. Expedita,
+                deserunt!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 </div>
 
 <style>
@@ -95,6 +169,100 @@
       align-items: center;
       justify-content: center;
     }
+  }
+
+  /* produk */
+  .produk {
+    margin-top: 100px;
+  }
+
+  .produk .co h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  .produk .co button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat;
+    width: 100%;
+    border: none;
+    background: linear-gradient(to right, #007793, #00d7f6);
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .produk .co p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: Montserrat;
+  }
+
+  .produk .co {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 3px rgba(0, 0, 2, 0.15);
+    padding: 20px;
+    position: sticky;
+    z-index: 2;
+    top: 120px;
+  }
+
+  .produk .y {
+    margin-top: 20px;
+  }
+
+  .produk .card h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  .produk .card p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .produk .card .back {
+    background: linear-gradient(to top, #000000, #000000ad, #ffffff00);
+    padding: 13px;
+    padding-top: 200px;
+    border-radius: 20px;
+  }
+
+  .produk .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .produk .card {
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 </style>
 
