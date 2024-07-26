@@ -21,6 +21,7 @@ use App\Http\Controllers\InformasiController;
 use App\Http\Controllers\JurusanController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\GaleryController;
 
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\PpdbController;
@@ -104,12 +105,12 @@ Route::middleware([
 });
 
 Route::group(['prefix' => 'prestasi', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
-    Route::get('/view', [PrestasiController::class, 'index'])->name('prestasi_admin');
-    Route::get('/add', [PrestasiController::class, 'create'])->name('add.prestasi_admin');
-    Route::post('/store', [PrestasiController::class, 'store'])->name('store.prestasi_admin');
-    Route::get('/edit/{id}', [PrestasiController::class, 'edit'])->name('edit.prestasi_admin');
-    Route::post('/update/{id}', [PrestasiController::class, 'update'])->name('update.prestasi_admin');
-    Route::get('/delete/{id}', [PrestasiController::class, 'destroy'])->name('delete.prestasi_admin');
+    Route::get('/view', [GaleryController::class, 'index'])->name('prestasi_admin');
+    Route::get('/add', [GaleryController::class, 'create'])->name('add.prestasi_admin');
+    Route::post('/store', [GaleryController::class, 'store'])->name('store.prestasi_admin');
+    Route::get('/edit/{id}', [GaleryController::class, 'edit'])->name('edit.prestasi_admin');
+    Route::post('/update/{id}', [GaleryController::class, 'update'])->name('update.prestasi_admin');
+    Route::get('/delete/{id}', [GaleryController::class, 'destroy'])->name('delete.prestasi_admin');
 });
 
 Route::group(['prefix' => 'vidio', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
