@@ -50,7 +50,7 @@ class GaleryController extends Controller
         $user->jenis_prestasi           = $request->jenis_prestasi;
         $user->foto_prestasi = $foto;
         $user->save();
-        return redirect()->route('galery_admin')->withSuccess('Data Berhasil Ditambahkan');
+        return redirect()->route('prestasi_admin')->withSuccess('Data Berhasil Ditambahkan');
     }
 
     /**
