@@ -25,9 +25,7 @@ use App\Http\Controllers\GaleryController;
 
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\PpdbController;
-
-
-
+use App\Models\Ekskul;
 
 /*
 |--------------------------------------------------------------------------
@@ -111,6 +109,15 @@ Route::group(['prefix' => 'prestasi', 'middleware' => ['auth:sanctum', config('j
     Route::get('/edit/{id}', [GaleryController::class, 'edit'])->name('edit.prestasi_admin');
     Route::post('/update/{id}', [GaleryController::class, 'update'])->name('update.prestasi_admin');
     Route::get('/delete/{id}', [GaleryController::class, 'destroy'])->name('delete.prestasi_admin');
+});
+
+Route::group(['prefix' => 'ekskuls', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
+    Route::get('/view', [EkskulController::class, 'index'])->name('ekskuls_admin');
+    Route::get('/add', [EkskulController::class, 'create'])->name('add.ekskuls_admin');
+    Route::post('/store', [EkskulController::class, 'store'])->name('store.ekskuls_admin');
+    Route::get('/edit/{id}', [EkskulController::class, 'edit'])->name('edit.ekskuls_admin');
+    Route::post('/update/{id}', [EkskulController::class, 'update'])->name('update.ekskuls_admin');
+    Route::get('/delete/{id}', [EkskulController::class, 'destroy'])->name('delete.ekskuls_admin');
 });
 
 Route::group(['prefix' => 'vidio', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {

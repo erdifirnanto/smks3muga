@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-hZD/e+TzuoHVZjW22c/JOJkuY/nH5E/njOioL/6dVYF0I+uT8vV0H5sUQ+sWwu8h8R3w1Zz8mVJAKYT7u7Jx3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" href="{{asset('user/assets/images/logo_muga.png')}}" type="image/png">
-  <title>SMKS Muhammadiyah 3 Tegaldlimo</title>
+  <title>SMK Muhammadiyah 3 Tegaldlimo</title>
 
   <!-- Bootstrap core CSS -->
   <link href="{{asset('user/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
