@@ -59,6 +59,12 @@
             <span>Foto</span></a>
     </li>
 
+    <li class="nav-item">
+        <a class="nav-link" href="{{route('ekskuls_admin')}}">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Ekstrakurikuler</span></a>
+    </li>
+
     <!-- Nav Item - Tables
     <li class="nav-item">
         <a class="nav-link" href="{{route('vidio_admin')}}">
