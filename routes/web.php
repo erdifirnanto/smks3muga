@@ -163,3 +163,16 @@ Route::get('/galeri', [GaleriController::class, 'galeri'])->name('galeri.user');
 
 Route::get('/kontak', [KontakController::class, 'kontak'])->name('kontak.user');
 Route::get('/ppdb', [PpdbController::class, 'ppdb'])->name('ppdb.user');
+// routes/web.php
+Route::get('/tiktok', function () {
+    return view('tiktok');
+});
+
+Route::view('/all', 'all');//menampilkan halaman all
+Route::view('/pplg', 'pplg'); // Menampilkan halaman PPLG
+Route::view('/mplb', 'mplb'); // Menampilkan halaman MPLB
+Route::view('/tbsm', 'tbsm'); // Menampilkan halaman TBSM
+Route::view('/tkro', 'tkro'); // Menampilkan halaman TKRO
+Route::view('/normatif', 'normatif'); // Menampilkan halaman Normatif
+Route::view('/karyawan', 'karyawan'); // Menampilkan halaman Karyawan
+Route::view('/waka', 'waka'); // Menampilkan halaman Waka
