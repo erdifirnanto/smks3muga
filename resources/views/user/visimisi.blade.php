@@ -53,16 +53,16 @@
         <div class="section-heading">
           <h2>Tujuan Sekolah</h2>
         </div>
-        <div style="text-align:left; margin-top: 20px;">
+        <div style="text-align:justify; margin-top: 20px;">
           <ul>
-            <li>Terwujudnya SMK Muhammadiyah 3 Tegaldlimo sebagai lembaga unggul dan menjadi pilihan masyarakat.</li>
-            <li>Terwujudnya lulusan SMK Muhammadiyah 3 Tegaldlimo yang memiliki daya saing yang tinggi untuk memasuki persaingan global.</li>
-            <li>Terbinanya potensi diri anak lewat pengembangan bakat minat dalam kegiatan ekstrakurikuler.</li>
-            <li>Terwujudnya kegiatan intra dan eksrakurikuler yang mampu mengembangkan potensi diri, perilaku kreatif sehingga menghasilkan prestasi yang unggul.</li>
-            <li>Tersalurnya tamatan untuk bekerja di industry sesuai kompeteni keahliannya.</li>
-            <li>Terbinanya hubungan kerjasama kemitraan saling menguntungkan dengan dunia usaha dunia industri, lembaga diklat serta stake holder yang relevan secara professional.</li>
-            <li>Terbinanya kehidupan yang bersih aqidahnya, benar ibadahnya dan kokoh akhlaknya baik di sekolah maupun di luar sekolah.</li>
-            <li>Terwujudnya kader muda Muhammadiyah yang mempunyai kompetensi dan integritas untuk berperan dalam masyarakat.</li>
+            <li>1. Terwujudnya SMK Muhammadiyah 3 Tegaldlimo sebagai lembaga unggul dan menjadi pilihan masyarakat.</li>
+            <li>2. Terwujudnya lulusan SMK Muhammadiyah 3 Tegaldlimo yang memiliki daya saing yang tinggi untuk memasuki persaingan global.</li>
+            <li>3. Terbinanya potensi diri anak lewat pengembangan bakat minat dalam kegiatan ekstrakurikuler.</li>
+            <li>4. Terwujudnya kegiatan intra dan eksrakurikuler yang mampu mengembangkan potensi diri, perilaku kreatif sehingga menghasilkan prestasi yang unggul.</li>
+            <li>5. Tersalurnya tamatan untuk bekerja di industry sesuai kompeteni keahliannya.</li>
+            <li>6. Terbinanya hubungan kerjasama kemitraan saling menguntungkan dengan dunia usaha dunia industri, lembaga diklat serta stake holder yang relevan secara professional.</li>
+            <li>7. Terbinanya kehidupan yang bersih aqidahnya, benar ibadahnya dan kokoh akhlaknya baik di sekolah maupun di luar sekolah.</li>
+            <li>8. Terwujudnya kader muda Muhammadiyah yang mempunyai kompetensi dan integritas untuk berperan dalam masyarakat.</li>
           </ul>
         </div>
         </div>

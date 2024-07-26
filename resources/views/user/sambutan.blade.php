@@ -66,6 +66,42 @@
     </div>
   </div>
 
+<!-- Tab Navigation -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <ul class="nav nav-tabs" id="teacherTabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pplg-tab" href="{{ url('all') }}" role="tab">ALL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="pplg-tab" href="{{ url('pplg') }}" role="tab">PPLG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="mplb-tab" href="{{ url('mplb') }}" role="tab">MPLB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="tbsm-tab" href="{{ url('tbsm') }}" role="tab">TBSM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="tkro-tab" href="{{ url('tkro') }}" role="tab">TKRO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="normatif-tab" href="{{ url('normatif') }}" role="tab">Normatif</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="karyawan-tab" href="{{ url('karyawan') }}" role="tab">Karyawan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="waka-tab" href="{{ url('waka') }}" role="tab">Waka</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <div class="container-fluid">
     <div class="row">
 
@@ -505,6 +541,7 @@
     </div>
   </div>
 </div>
+
 
 
 

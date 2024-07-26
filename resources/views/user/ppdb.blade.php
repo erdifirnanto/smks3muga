@@ -18,9 +18,10 @@
         </div>
       </div>
       <div class="col-12 mt-3">
-        <div class="section-text wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="section-text" style="text-align: center;" wow fadeInRight data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="row">
-            <div class="col-md-6 text-right">
+            <div class="col-md-6">
+              <div style="text-align: justify; display: inline-block; text-align: left;">
               <p><strong>Anda Akan Mendapatkan:</strong></p>
               <ol>
                 <li>1. Mendapat 3 Setel Seragam Sekolah</li>
@@ -28,7 +29,9 @@
                 <li>3. Free DPP 3 Tahun</li>
               </ol>
             </div>
+            </div>
             <div class="col-md-6">
+              <div style="text-align: justify; display: inline-block; text-align: left;">
               <p><strong>Syarat Mudah:</strong></p>
               <ol>
                 <li>1. Mengisi Formulir Pendaftaran</li>
@@ -37,6 +40,7 @@
                 <li>4. Fotokopi Akte Kelahiran</li>
               </ol>
             </div>
+            </div>
           </div>
         </div>
       </div>
@@ -44,15 +48,18 @@
       <div class="col-12 mt-3">
         <div class="section-video-description bg-primary rounded p-3">
           <div class="row align-items-center">
-            <div class="col-md-6 offset-md-1">
-              <div class="embed-responsive embed-responsive-16by9" style="max-width: 200px;">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9" style="max-width: 600px;">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OZLjGupkxYA" allowfullscreen></iframe>
               </div>
             </div>
-            <div class="col-md-5">
-              <h3 style="text-align:left;" class="text-white">Judul Video</h3>
-              <p style="text-align:left;" class="text-white">Deskripsi singkat tentang video ini. Anda dapat menjelaskan konten utama dari video ini di sini.</p>
+            <div class="col-md-6">
+              <div style="text-align: center;" class="section-heading">
+              <h2 style="text-align:left;" class="text-dark">Vidio PPDB SMK Muhammadiyah 3 Tegaldlimo</h2>
+              <p style="text-align:left;"> <strong> Selamat Menyongsong Tahun Ajaran Baru 2024/2025 <strong></p>
+              <p style="text-align:left;" class="text-dark">Hadapi dengan optimis dan semangat mengasah diri dalam mengukir prestasi!</p>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -66,6 +73,11 @@
         </a>
       </div>
 
+    <div class="margin-top:20px;">
+      <a href="https://wa.me/089676628458" target="_blank">
+        <img src="images/facebook.png" class="me-2" alt="Facebook Icon" style="width: 30px; height: 30px;">
+        
+    </div>
     <div style="margin-top:20px; ">
         <a style="margin-right:10px;" href="https://www.facebook.com/SMKMuhammadiyah3Tegaldlimo" target="_blank">
             <i class="fa fa-facebook"></i>
