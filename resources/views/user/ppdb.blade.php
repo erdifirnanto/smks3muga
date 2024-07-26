@@ -65,6 +65,22 @@
           Daftar Sekarang
         </a>
       </div>
+
+    <div style="margin-top:20px; ">
+        <a style="margin-right:10px;" href="https://www.facebook.com/SMKMuhammadiyah3Tegaldlimo" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a style="margin-right:10px;" href="https://www.twitter.com" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a style="margin-right:10px;" href="https://www.youtube.com/@mugavision" target="_blank">
+            <i class="fa fa-youtube"></i>
+        </a>
+        <a style="margin-right:10px;" href="https://www.tiktok.com/@smk_muhammadiyah_3" target="_blank">
+    <i class="fab fa-tiktok"></i>
+</a>
+        </a>
+    </div>
     </div>
   </div>
 </div>

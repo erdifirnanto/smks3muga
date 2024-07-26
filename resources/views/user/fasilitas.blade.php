@@ -4,9 +4,43 @@
 <div id="about" class="about-us section">
   <div class="container">
     <div class="row">
+            <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+              <form id="contact" action="" method="post">
+                <div class="row">
+      <div class="col-lg-8 offset-lg-3">
+        <div class="section-heading">
+          <h2>Fasilitas SMK Muhammadiyah 3 Tegaldlimo</h2>
+        </div>
+      </div>
       <div class="col-lg-6">
         <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
           <img style="width:300px;" src="{{asset('user/assets/images/gedung1.jpg')}}" alt="">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
       <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -35,6 +69,7 @@
               </div>
             </div>
           </div> -->
+          
         <p>
           <!-- <a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent">SEO Dream</a> -->
         <div style="text-align:justify">

@@ -155,3 +155,7 @@ Route::get('/galeri', [GaleriController::class, 'galeri'])->name('galeri.user');
 
 Route::get('/kontak', [KontakController::class, 'kontak'])->name('kontak.user');
 Route::get('/ppdb', [PpdbController::class, 'ppdb'])->name('ppdb.user');
+// routes/web.php
+Route::get('/tiktok', function () {
+    return view('tiktok');
+});
