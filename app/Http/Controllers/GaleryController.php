@@ -8,7 +8,7 @@ use Illuminate\Http\Testing\File;
 use Illuminate\Support\Facades\Storage;
 
 
-class PrestasiController extends Controller
+class GaleryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,7 +19,7 @@ class PrestasiController extends Controller
     {
         $data = prestasi::all();
         // dd($data);
-        return view('admin.prestasi_admin.view_prestasi', compact('data'));
+        return view('admin.galery_admin.view_galery', compact('data'));
     }
 
     /**
@@ -29,7 +29,7 @@ class PrestasiController extends Controller
      */
     public function create()
     {
-        return view('admin.prestasi_admin.add_prestasi');
+        return view('admin.galery_admin.add_galery');
     }
 
     /**
@@ -50,7 +50,7 @@ class PrestasiController extends Controller
         $user->jenis_prestasi           = $request->jenis_prestasi;
         $user->foto_prestasi = $foto;
         $user->save();
-        return redirect()->route('prestasi_admin')->withSuccess('Data Berhasil Ditambahkan');
+        return redirect()->route('galery_admin')->withSuccess('Data Berhasil Ditambahkan');
     }
 
     /**
@@ -73,7 +73,7 @@ class PrestasiController extends Controller
     public function edit($id)
     {
         $prestasi = prestasi::find($id);
-        return view('admin.prestasi_admin.edit_prestasi', compact('prestasi'));
+        return view('admin.galery_admin.edit_galery', compact('prestasi'));
     }
 
     /**
@@ -96,7 +96,7 @@ class PrestasiController extends Controller
         $user->created_at               = $request->created_at;
 
         $user->update();
-        return redirect()->route('prestasi_admin')->withSuccess('Data Berhasil Diedit');
+        return redirect()->route('galery_admin')->withSuccess('Data Berhasil Diedit');
     }
 
     /**

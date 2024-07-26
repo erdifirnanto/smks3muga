@@ -2,10 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <nav class="main-nav">
+        <nav class="main-nav ">
           <!-- ***** Logo Start ***** -->
-          <a href="index.html" class="logo">
-            <h4><img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:80px" alt="">SMK MUGA</h4>
+          <a href="index.html" class="logo mt-2" >
+            <img src="{{asset('user/assets/images/logo_muga.png')}}" style="width:60px" alt="">
+          </a>
+          <a href="index.html" class="logo mt-4" >
+            <h6 class="text-light fw-bold" style="margin-left:10px;">SMK MUHAMMDIYAH 3 <br> TEGALDLIMO</h6>  
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
