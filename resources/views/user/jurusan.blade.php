@@ -25,10 +25,10 @@
 
           <div class="slider">
             <div class="slide-track">
+              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="250" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="250" alt="1" /></div>
               <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="250" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="250" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="250" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="250" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="250" alt="1" /></div>
             </div>
           </div>
 
@@ -63,9 +63,9 @@
     &::before,
     &::after {
       content: "";
-      height: 250px;
+      /* height: 250px; */
       position: absolute;
-      width: 220px;
+      /* width: 220px; */
       /* Adjusted for gap */
       z-index: 2;
       background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
