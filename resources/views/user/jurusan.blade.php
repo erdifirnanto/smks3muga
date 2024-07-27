@@ -113,7 +113,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 1100px;
+    width: 100%;
     /* Adjusted for gap */
 
     &::before,
