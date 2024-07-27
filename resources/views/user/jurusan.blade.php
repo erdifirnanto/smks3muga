@@ -5,7 +5,7 @@
     <div class="col-lg-12">
       <div id="about" class="about-us section mt-4">
         <div style="text-align: center;" class="section-heading">
-          <h2>Ekstrakurikuler SMK Muhammadiyah 3 Tegaldlimo</h2>
+          <h2>Jurusan SMK Muhammadiyah 3 Tegaldlimo</h2>
         </div>
       </div>
       <div id="about" class="about-us section" style="margin-top:-170px;">
@@ -22,17 +22,17 @@
 
       <div id="about" class="about-us section" style="margin-top:-150px;">
         <div>
-
+        
           <div class="slider">
             <div class="slide-track">
-              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="250" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="250" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="250" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="250" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="300" alt="1" /></div>
             </div>
           </div>
-
         </div>
+        
       </div>
     </div>
   </div>
@@ -45,15 +45,8 @@
         <div class="col-md-3">
           <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
             <div class="back">
-              <h1>Web Developer</h1>
-              <p>Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Rem
-                possimus reiciendis ipsam ab
-                distinctio quia tenetur quos sequi
-                facere quisquam. Iusto perspiciatis
-                tempore expedita numquam excepturi
-                dolorum debitis. Expedita,
-                deserunt!</p>
+              <h1>Pengembangan Perangkat Lunak & Gim</h1>
+              <p>Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.</p>
             </div>
           </div>
         </div>
@@ -61,15 +54,8 @@
         <div class="col-md-3">
           <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
             <div class="back">
-              <h1>Web Developer</h1>
-              <p>Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Rem
-                possimus reiciendis ipsam ab
-                distinctio quia tenetur quos sequi
-                facere quisquam. Iusto perspiciatis
-                tempore expedita numquam excepturi
-                dolorum debitis. Expedita,
-                deserunt!</p>
+              <h1>Manajemen Perkantoran & Layanan Bisnis</h1>
+              <p>Jurusan MPLB mempelajari berbagai kegiatan kantor, mulai dari pembukuan dan pengarsipan hingga public relations dan mempersiapkan diri menjadi profesional yang efisien dan kompeten di dunia kerja.</p>
             </div>
           </div>
         </div>
@@ -77,15 +63,8 @@
         <div class="col-md-3">
           <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
             <div class="back">
-              <h1>Web Developer</h1>
-              <p>Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Rem
-                possimus reiciendis ipsam ab
-                distinctio quia tenetur quos sequi
-                facere quisquam. Iusto perspiciatis
-                tempore expedita numquam excepturi
-                dolorum debitis. Expedita,
-                deserunt!</p>
+              <h1>Teknik dan Bisnis Sepeda Motor</h1>
+              <p>Teknik dan Bisnis Sepeda Motor (TBSM) adalah salah satu cabang ilmu teknik mesin yang mempelajari tentang bagaimana merancang, membuat dan mengembangkan alat-alat transportasi darat yang menggunakan mesin, terutama sepeda motor.</p>
             </div>
           </div>
         </div>
@@ -93,15 +72,8 @@
         <div class="col-md-3">
           <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
             <div class="back">
-              <h1>Web Developer</h1>
-              <p>Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Rem
-                possimus reiciendis ipsam ab
-                distinctio quia tenetur quos sequi
-                facere quisquam. Iusto perspiciatis
-                tempore expedita numquam excepturi
-                dolorum debitis. Expedita,
-                deserunt!</p>
+              <h1>Teknik Kendaraan Ringan Otomotif</h1>
+              <p>Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).</p>
             </div>
           </div>
         </div>
