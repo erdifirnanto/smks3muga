@@ -25,10 +25,10 @@
         
           <div class="slider">
             <div class="slide-track">
-              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="300" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="300" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="300" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="280" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="280" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="280" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="280" alt="1" /></div>
             </div>
           </div>
         </div>
@@ -45,35 +45,45 @@
         <div class="col-md-3">
           <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
             <div class="back">
-              <h1>Pengembangan Perangkat Lunak & Gim</h1>
-              <p>Jurusan PPLG mempelajari tentang perkembangan perangkat lunak meliputi pembuatan, manajemen organisasi pengembangan perangkat lunak, pemeliharaan dan manajemen kualitas.</p>
+              <h1>Pengembangan Perangkat Lunak & Gim (PPLG)</h1>
+              <p>Jurusan PPLG mempelajari tentang
+                perkembangan perangkat lunak meliputi pembuatan,
+                manajemen organisasi pengembangan perangkat
+                lunak, pemeliharaan dan manajemen kualitas.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+          <div class="card" style="background-image: url('user/assets/images/praktikmplb.jpg');">
             <div class="back">
-              <h1>Manajemen Perkantoran & Layanan Bisnis</h1>
-              <p>Jurusan MPLB mempelajari berbagai kegiatan kantor, mulai dari pembukuan dan pengarsipan hingga public relations dan mempersiapkan diri menjadi profesional yang efisien dan kompeten di dunia kerja.</p>
+              <h1>Manajemen Perkantoran & Layanan Bisnis (MPLB)</h1>
+              <p>Jurusan MPLB mempelajari berbagai kegiatan kantor, mulai dari
+                pembukuan dan pengarsipan hingga public relations dan mempersiapkan diri
+                menjadi profesional yang efisien dan kompeten di dunia kerja.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+          <div class="card" style="background-image: url('user/assets/images/praktiktbsm.jpg');">
             <div class="back">
-              <h1>Teknik dan Bisnis Sepeda Motor</h1>
-              <p>Teknik dan Bisnis Sepeda Motor (TBSM) adalah salah satu cabang ilmu teknik mesin yang mempelajari tentang bagaimana merancang, membuat dan mengembangkan alat-alat transportasi darat yang menggunakan mesin, terutama sepeda motor.</p>
+              <h1>Teknik Bisnis Sepeda Motor (TBSM)</h1>
+              <p>Jurusan TBSM adalah salah satu cabang ilmu teknik
+                mesin yang mempelajari tentang
+                bagaimana merancang, membuat dan mengembangkan alat-alat transportasi
+                darat yang menggunakan mesin, terutama sepeda motor.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/praktikpplg.jpg');">
+          <div class="card" style="background-image: url('user/assets/images/praktiktkro.jpg');">
             <div class="back">
-              <h1>Teknik Kendaraan Ringan Otomotif</h1>
-              <p>Jurusan TKRO adalah salah satu bidang profesi yang mempelajari kompetisi keahlian bidang teknik otomotif yang menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).</p>
+              <h1>Teknik Kendaraan Ringan (TKRO)</h1>
+              <p>urusan TKRO adalah salah satu bidang profesi yang mempelajari
+                kompetisi keahlian bidang teknik otomotif yang
+                menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).</p>
             </div>
           </div>
         </div>
@@ -99,11 +109,11 @@
   .slider {
     background: white;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-    height: 250px;
+    height: 280px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 980px;
+    width: 1100px;
     /* Adjusted for gap */
 
     &::before,
@@ -130,12 +140,12 @@
 
     .slide-track {
       display: flex;
-      gap: 10px;
+      gap: 5px;
       /* Add gap between slides */
     }
 
     .slide {
-      height: 250px;
+      height: 280px;
       width: 250px;
       display: flex;
       align-items: center;
@@ -193,7 +203,7 @@
 
   .produk .card h1 {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
     font-family: Montserrat;
@@ -201,14 +211,21 @@
 
   .produk .card p {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-family: Montserrat;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     display: -webkit-box;
-    overflow: hidden;
+    overflow: auto;
     text-overflow: ellipsis;
+    scrollbar-width: none;
+    /* For Firefox */
+  }
+
+  .produk .card p::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Opera */
   }
 
   .produk .card .back {
