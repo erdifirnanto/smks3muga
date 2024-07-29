@@ -10,16 +10,32 @@ class ProfileController extends Controller
     {
         return view('user.sambutan');
     }
-    
+
     public function visimisi()
     {
         return view('user.visimisi');
     }
-    
+
     public function fasilitas()
     {
         return view('user.fasilitas');
     }
+
+    public function bankminimuga()
+    {
+        return view('user.bankminimuga ');
+    }
+
+    public function masjid()
+    {
+        return view('user.masjid');
+    }
+
+    public function perpustakaan()
+    {
+        return view('user.perpustakaan');
+    }
+
     public function strukturorganisasi()
     {
         return view('user.strukturorganisasi');

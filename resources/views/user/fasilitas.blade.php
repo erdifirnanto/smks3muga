@@ -16,13 +16,13 @@
 
       <div id="about" class="about-us section" style="margin-top:-150px;">
         <div>
-          {{-- INI DI ISI FOTO Ya Sayang Tapi 4 Aja Jangan lebihhhhhh --}}
+          {{-- INI DI ISI FOTO Ya Tapi 4 Aja Jangan lebihhhhhh --}}
           <div class="slider">
             <div class="slide-track">
-              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="300" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="300" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="300" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/foto4.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/foto2.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/foto3.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/foto6.jpg')}}" height="300" alt="1" /></div>
             </div>
           </div>
         </div>
@@ -37,44 +37,40 @@
       <div class="row">
 
         <div class="col-md-3">
+        <a href="{{route('bankminimuga.user')}}">
           <div class="card" style="background-image: url('user/assets/images/bankmuga.png');">
             <div class="back">
               <h1>Bank Mini Muga</h1>
-              <p>SMK Muhammadiyah 3 Tegaldlimo terus berinovasi dalam memberikan pengalaman belajar yang praktis dan relevan bagi siswa-siswinya. Salah satu inovasi terbaru dan yang menjadi kebanggaan sekolah adalah didirikannya Bank Mini, sebuah fasilitas edukatif yang dirancang untuk memperkenalkan siswa pada dunia perbankan secara langsung.</p>
             </div>
           </div>
+        </a>
+        </div>
+
+
+        <div class="col-md-3">
+          <a href="{{route('masjid.user')}}">
+          <div class="card" style="background-image: url('user/assets/images/masjid.jpg');">
+            <div class="back">
+              <h1>Masjid Al-Hikmah</h1>
+            </div>
+          </div>
+          </a>
         </div>
 
         <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/praktikmplb.jpg');">
+          <a href="{{route('perpustakaan.user')}}">
+          <div class="card" style="background-image: url('user/assets/images/perpustakaan.jpg');">
             <div class="back">
-              <h1>Manajemen Perkantoran & Layanan Bisnis (MPLB)</h1>
-              <p>Jurusan MPLB mempelajari berbagai kegiatan kantor, mulai dari
-                pembukuan dan pengarsipan hingga public relations dan mempersiapkan diri
-                menjadi profesional yang efisien dan kompeten di dunia kerja.</p>
+              <h1>Perpustakaan</h1>
             </div>
           </div>
+          </a>
         </div>
 
-        <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/praktiktbsm.jpg');">
+          <div class="col-md-3">
+          <div class="card" style="background-image: url('user/assets/images/tempatparkir.jpg');">
             <div class="back">
-              <h1>Teknik Bisnis Sepeda Motor (TBSM)</h1>
-              <p>Jurusan TBSM adalah salah satu cabang ilmu teknik
-                mesin yang mempelajari tentang
-                bagaimana merancang, membuat dan mengembangkan alat-alat transportasi
-                darat yang menggunakan mesin, terutama sepeda motor.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/praktiktkro.jpg');">
-            <div class="back">
-              <h1>Teknik Kendaraan Ringan (TKRO)</h1>
-              <p>urusan TKRO adalah salah satu bidang profesi yang mempelajari
-                kompetisi keahlian bidang teknik otomotif yang
-                menekankan pada bidang jasa perbaikan kendaraan ringan (Mobil).</p>
+              <h1>Tempat Parkir</h1>
             </div>
           </div>
         </div>

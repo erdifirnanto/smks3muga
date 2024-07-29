@@ -85,10 +85,12 @@ Route::middleware([
             ->OrderBY(DB::raw("Month(created_at)"))
             ->pluck('pendaftar');
 
-            $results = DB::table('pendaftaran')
-            ->select(DB::raw("DATE_FORMAT(created_at, '%M') AS nama_bulan"),
-                     DB::raw("DATE_FORMAT(created_at, '%Y') AS tahun"),
-                     DB::raw("COUNT(*) AS daftar"))
+        $results = DB::table('pendaftaran')
+            ->select(
+                DB::raw("DATE_FORMAT(created_at, '%M') AS nama_bulan"),
+                DB::raw("DATE_FORMAT(created_at, '%Y') AS tahun"),
+                DB::raw("COUNT(*) AS daftar")
+            )
             ->groupBy(DB::raw("DATE_FORMAT(created_at, '%M'), DATE_FORMAT(created_at, '%Y')"))
             ->orderBy('created_at')
             ->get();
@@ -98,7 +100,7 @@ Route::middleware([
             ->count();
         $dataprestasi = prestasi::select(DB::raw("COUNT(*) as jumlah"))
             ->count();
-        return view('admin.dashboard ', compact('year','pendaftar', 'vidio', 'event', 'prestasi', 'bulan', 'pendaftaran', 'datavidio', 'dataevent', 'dataprestasi','results'));
+        return view('admin.dashboard ', compact('year', 'pendaftar', 'vidio', 'event', 'prestasi', 'bulan', 'pendaftaran', 'datavidio', 'dataevent', 'dataprestasi', 'results'));
     })->name('dashboard');
 });
 
@@ -154,6 +156,10 @@ Route::get('/admin/logout', [LoginController::class, 'logout'])->name('admin.log
 Route::get('/sambutan', [ProfileController::class, 'sambutan'])->name('sambutan.user');
 Route::get('/visimisi', [ProfileController::class, 'visimisi'])->name('visimisi.user');
 Route::get('/fasilitas', [ProfileController::class, 'fasilitas'])->name('fasilitas.user');
+Route::get('/fasilitas/bankminimuga', [ProfileController::class, 'bankminimuga'])->name('bankminimuga.user');
+Route::get('/fasilitas/masjid', [ProfileController::class, 'masjid'])->name('masjid.user');
+Route::get('/fasilitas/perpustakaan', [ProfileController::class, 'perpustakaan'])->name('perpustakaan.user');
+
 Route::get('/strukturorganisasi', [ProfileController::class, 'strukturorganisasi'])->name('strukturorganisasi.user');
 Route::get('/berita', [InformasiController::class, 'berita'])->name('berita.user');
 Route::get('/event', [InformasiController::class, 'event'])->name('event.user');
@@ -168,7 +174,7 @@ Route::get('/tiktok', function () {
     return view('tiktok');
 });
 
-Route::view('/all', 'all');//menampilkan halaman all
+Route::view('/all', 'all'); //menampilkan halaman all
 Route::view('/pplg', 'pplg'); // Menampilkan halaman PPLG
 Route::view('/mplb', 'mplb'); // Menampilkan halaman MPLB
 Route::view('/tbsm', 'tbsm'); // Menampilkan halaman TBSM
