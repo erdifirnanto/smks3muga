@@ -25,10 +25,10 @@
         
           <div class="slider">
             <div class="slide-track">
-              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="280" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="280" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="280" alt="1" /></div>
-              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="280" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikpplg.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktikmplb.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktbsm.jpg')}}" height="300" alt="1" /></div>
+              <div class="slide"><img src="{{asset('user/assets/images/praktiktkro.jpg')}}" height="300" alt="1" /></div>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
   .slider {
     background: white;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-    height: 280px;
+    height: 300px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -145,8 +145,8 @@
     }
 
     .slide {
-      height: 280px;
-      width: 250px;
+      height: 300px;
+      width: 300px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -276,7 +276,7 @@
     let currentPosition = 0;
 
     function animateSlider() {
-      currentPosition -= 0.5; // Adjust speed if needed
+      currentPosition -= 0.8; // Adjust speed if needed
       if (Math.abs(currentPosition) >= (slideWidth + slideGap) * slides.length) {
         currentPosition = 0;
       }

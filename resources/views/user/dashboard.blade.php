@@ -126,7 +126,7 @@
                 <div class=""></div>
                 <h6>
                   <p>
-                  <div style="text-align:left">
+                  <div style="text-align:justify">
                     Guru pengajar yang up-to-date dan kompeten di bidangnya.
                   </div>
                 </h6>
@@ -210,7 +210,7 @@
 
               <img style="max-width:200px;" src="{{asset('user/assets/images/pplg.png')}}" alt="">
               <h4>
-                <div style="text-align:center">Pengembangan Perangkat Lunak & Gim (PPLG)</div>
+                <div style="text-align:center">PPLG</div>
               </h4>
               <div class="line-dec"></div>
               <h6>
@@ -230,7 +230,7 @@
                   </div> -->
               <img style="max-width:200px;" src="{{asset('user/assets/images/mplb.png')}}" alt="">
               <h4>
-                <div style="text-align:center">Manajemen Perkantoran dan Layanan Bisnis (MPLB)</div>
+                <div style="text-align:center">MPLB</div>
               </h4>
               <div class="line-dec"></div>
               <h6>
@@ -249,7 +249,7 @@
                   </div> -->
               <img style="max-width:200px;" src="{{asset('user/assets/images/tbsm.png')}}" alt="">
               <h4>
-                <div style="text-align:center">Teknik Bisnis Sepeda Motor (TBSM)</div>
+                <div style="text-align:center">TBSM</div>
               </h4>
               <div class="line-dec"></div>
               <p>
@@ -268,7 +268,7 @@
                   </div> -->
               <img style="max-width:200px;" src="{{asset('user/assets/images/mplb.png')}}" alt="">
               <h4>
-                <div style="text-align:center">Teknik Kendaraan Ringan (TKRO)</div>
+                <div style="text-align:center">TKRO</div>
               </h4>
               <div class="line-dec"></div>
               <p>

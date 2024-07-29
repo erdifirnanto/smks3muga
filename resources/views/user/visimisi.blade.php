@@ -1,38 +1,67 @@
 @extends('user.master')
 @section('master')
 
-<div id="about" class="about-us section">
-  <div class="container">
-    <div class="row">
-      <!-- Visi Sekolah Section -->
-      <div class="col-lg-6">
-        <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:500px;" src="{{ asset('user/assets/images/gurukaryawan.jpg') }}" alt="Visi Sekolah Image">
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div id="about" class="about-us section mt-4">
+        <div style="text-align: center;" class="section-heading">
+          <h2>Visi, Misi & Tujuan SMK MUGA Tegaldlimo</h2>
         </div>
       </div>
-      <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="section-heading">
-          <h2>Visi Sekolah</h2>
-        </div>
+
+      <div id="about" class="about-us section" style="margin-top:-170px;">
+        <div style="text-align: center;" class="section-heading">
+          <p><b>SMK Muhammadiyah 3 Tegaldlimo adalah sekolah kejuruan yang terletak di Kabupaten Banyuwangi Provinsi Jawa Timur, dengan pilihan 4 pilihan program jurusan, yaitu Otomatisasi dan Tata Kelola Perkantoran, Rekayasa Perangkat Lunak, Teknik dan Bisnis Sepeda Motor dan Teknik Kendaraan Ringan Otomotif.</p>
         <p>
-        <div style="text-align:justify">
-          Terwujudnya peserta didik yang islami, nasionalis, profesional dan berwawasan kewirausahaan.
-        </div>
+          <b>Tidak perlu ragu pilih SMK Muhammadiyah 3 Tegaldlimo, sekolah berkualitas yang islami, santun dan profesional.
+        </p>
+          </div>
       </div>
     </div>
+  </div>
+</div>
+    
 
-    <!-- Misi Sekolah Section -->
-    <div style="margin-top: 60px;" class="row">
-      <div class="col-lg-6">
-        <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:500px;" src="{{ asset('user/assets/images/gurukaryawan.jpg') }}" alt="Misi Sekolah Image">
+<div id="about" class="about-us section" style="margin-top:-130px;">
+  <div class="container ">
+    <div class="row ">
+
+      <!-- Visi Sekolah Section -->
+      <div class="col-lg-12 d-flex justify-content-center">
+        <div class=" left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+          <img style="width:700px; border-radius:50px;" src="{{ asset('user/assets/images/gurukaryawan.jpg') }}" alt="Visi Sekolah Image">
         </div>
       </div>
-      <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="section-heading">
+
+      <div id="about" class="about-us section " style="margin-top:-100px;">
+        <div class="d-flex justify-content-center section-heading">
+          <h2>Visi Sekolah</h2>
+        </div>
+      </div>
+
+      <div id="about" class="about-us section" style="margin-top:-170px;">
+        <div style="text-align: center;" class="section-heading">
+            <p>Terwujudnya peserta didik yang islami, nasionalis, profesional dan berwawasan kewirausahaan.</p>
+        </div>
+      </div>
+
+      <div class="continer">
+        <div class="row">
+          <div class="col-12">
+<!-- Misi Sekolah Section -->
+      <div class="col-lg-12 d-flex justify-content-center">
+        <div class=" left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+          <img style="width:700px; border-radius:50px;" src="{{ asset('user/assets/images/fotobersamasmuga.jpg') }}" alt="Visi Sekolah Image">
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="section-heading d-flex justify-content-center">
           <h2>Misi Sekolah</h2>
         </div>
-        <div style="text-align:left; margin-top: 20px;">
+        <div class="" style="text-align:left; margin-top: 10px; font-weight:normal;">
           <div>1. Melaksanakan pendidikan berdasarkan Iman, Islam dan Taqwa</div>
           <div>2. Membentuk karakter pribadi siswa melalui ibadah</div>
           <div>3. Melaksanakan pendidikan yang unggul dibidang IPTEK</div>
@@ -40,20 +69,12 @@
           <div>5. Membekali lulusan berwawasan kewirausahaan</div>
         </div>
       </div>
-    </div>
 
-    <!-- Tujuan Section -->
-     <div style="margin-top: 60px;" class="row">
-      <div class="col-lg-6">
-        <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-          <img style="width:500px;" src="{{ asset('user/assets/images/gurukaryawan.jpg') }}" alt="Tujuan Sekolah Image">
-        </div>
-      </div>
-      <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="section-heading">
+      <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="section-heading d-flex justify-content-center">
           <h2>Tujuan Sekolah</h2>
         </div>
-        <div style="text-align:justify; margin-top: 20px;">
+        <div style="text-align:left; margin-top: 10px; font-weight:normal;">
           <ul>
             <li>1. Terwujudnya SMK Muhammadiyah 3 Tegaldlimo sebagai lembaga unggul dan menjadi pilihan masyarakat.</li>
             <li>2. Terwujudnya lulusan SMK Muhammadiyah 3 Tegaldlimo yang memiliki daya saing yang tinggi untuk memasuki persaingan global.</li>
@@ -65,10 +86,16 @@
             <li>8. Terwujudnya kader muda Muhammadiyah yang mempunyai kompetensi dan integritas untuk berperan dalam masyarakat.</li>
           </ul>
         </div>
+      </div>
+      </div>
+      
+    </div>
+          </div>
         </div>
       </div>
-    </div>
+    
 
+   
   </div>
 </div>
 
