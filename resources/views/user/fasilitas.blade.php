@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -37,40 +37,44 @@
       <div class="row">
 
         <div class="col-md-3">
-        <a href="{{route('bankminimuga.user')}}">
-          <div class="card" style="background-image: url('user/assets/images/bankmuga.png');">
-            <div class="back">
-              <h1>Bank Mini Muga</h1>
+          <a href="{{route('bankminimuga.user')}}">
+            <div class="card" style="background-image: url('user/assets/images/bankmuga.png');">
+              <div class="back d-flex justify-content-center">
+                <h1>Bank Mini Muga</h1>
+                <button type="button" class="btn btn-primary" style="border-radius: 20px;">Baca Selengkapnya</button>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
         </div>
 
 
         <div class="col-md-3">
           <a href="{{route('masjid.user')}}">
-          <div class="card" style="background-image: url('user/assets/images/masjid.jpg');">
-            <div class="back">
-              <h1>Masjid Al-Hikmah</h1>
+            <div class="card" style="background-image: url('user/assets/images/masjid.jpg');">
+              <div class="back d-flex justify-content-center">
+                <h1>Masjid Al-Hikmah</h1>
+                <button type="button" class="btn btn-primary" style="border-radius: 20px;">Baca Selengkapnya</button>
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="col-md-3">
           <a href="{{route('perpustakaan.user')}}">
-          <div class="card" style="background-image: url('user/assets/images/perpustakaan.jpg');">
-            <div class="back">
-              <h1>Perpustakaan</h1>
+            <div class="card" style="background-image: url('user/assets/images/perpustakaan.jpg');">
+              <div class="back d-flex justify-content-center">
+                <h1>Perpustakaan</h1>
+                <button type="button" class="btn btn-primary" style="border-radius: 20px;">Baca Selengkapnya</button>
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
-          <div class="col-md-3">
+        <div class="col-md-3">
           <div class="card" style="background-image: url('user/assets/images/tempatparkir.jpg');">
-            <div class="back">
+            <div class="back d-flex justify-content-center">
               <h1>Tempat Parkir</h1>
+              <button type="button" class="btn btn-primary" style="border-radius: 20px;">Baca Selengkapnya</button>
             </div>
           </div>
         </div>
@@ -189,11 +193,15 @@
   }
 
   .produk .card h1 {
+    /* border: solid; */
     color: #fff;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
     font-family: Montserrat;
+    position: absolute;
+    top: 40%;
+    /* left: 25%; */
   }
 
   .produk .card p {
@@ -220,6 +228,8 @@
     padding: 13px;
     padding-top: 200px;
     border-radius: 20px;
+    position: relative;
+    text-align: center;
   }
 
   .produk .card:hover {

@@ -19,7 +19,7 @@ class EventController extends Controller
     public function index()
     {
         $data = event::all();
-        if(session('success_message')){
+        if (session('success_message')) {
             Alert::success('Success', session('success_message'));
         }
         return view('admin.event_admin.view_event', compact('data'));
@@ -33,7 +33,7 @@ class EventController extends Controller
     public function create()
     {
         $data = User::all();
-        return view('admin.event_admin.add_event',compact('data'));
+        return view('admin.event_admin.add_event', compact('data'));
     }
 
     /**
@@ -46,8 +46,7 @@ class EventController extends Controller
     {
         $user = new event();
         if ($request->hasFile('foto_event')) {
-            $foto=$request->file('foto_event')->store('fotoevent');
-            
+            $foto = $request->file('foto_event')->store('fotoevent', 'public');
         }
         $user->judul_event           = $request->judul_event;
         $user->berita                = $request->berita;
@@ -55,7 +54,6 @@ class EventController extends Controller
         $user->pembuat               = $request->pembuat;
         $user->save();
         return redirect()->route('event_admin')->withSuccess('Data Berhasil Ditambahkan');
-        
     }
     /**
      * Display the specified resource.
@@ -69,11 +67,12 @@ class EventController extends Controller
         $data = event::all();
         return view('user.meetings', compact('data'));
     }
+
     public function detail($id)
     {
         $news = event::orderBy('created_at', 'desc')->take(10)->get();
         $data = event::find($id);
-        return view('user.meetings-details', compact('data','news'));
+        return view('user.meetings-details', compact('data', 'news'));
     }
 
     /**
@@ -99,12 +98,12 @@ class EventController extends Controller
     {
         $user = event::find($id);
         if ($request->hasFile('foto_event')) {
-            $foto=$request->file('foto_event')->store('fotoevent');
+            $foto = $request->file('foto_event')->store('fotoevent', 'public');
             $user->foto_event            = $foto;
         }
         $user->judul_event           = $request->judul_event;
         $user->berita                = $request->berita;
-        
+
         $user->update();
         return redirect()->route('event_admin')->withSuccess(__('Data Berhasil Diedit'));
     }
@@ -119,7 +118,7 @@ class EventController extends Controller
     {
         $event = event::find($id);
         $event->delete();
-        if ($event->foto_event != null || $event->foto_event ='' ){
+        if ($event->foto_event != null || $event->foto_event = '') {
             Storage::delete($event->foto_event);
         }
         return redirect()->back();
