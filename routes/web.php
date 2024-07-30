@@ -10,6 +10,7 @@ use App\Models\event;
 use App\Models\pendaftaran;
 use App\Models\prestasi;
 use App\Models\vidio;
+use App\Models\Ekskul;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
@@ -25,7 +26,6 @@ use App\Http\Controllers\GaleryController;
 
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\PpdbController;
-use App\Models\Ekskul;
 
 /*
 |--------------------------------------------------------------------------
@@ -71,9 +71,9 @@ Route::middleware([
     Route::get('/dashboard', function () {
 
         $pendaftar = pendaftaran::count();
-        $vidio = vidio::count();
+        $ekskul = Ekskul::count();
         $event = event::count();
-        $prestasi = prestasi::count();
+        $fotogalery = prestasi::count();
         $year = pendaftaran::select(DB::raw("YEAR(created_at) as year"))
             ->pluck('year');
         $bulan = pendaftaran::select(DB::raw("MONTHNAME(created_at) as bulan"))
@@ -94,13 +94,13 @@ Route::middleware([
             ->groupBy(DB::raw("DATE_FORMAT(created_at, '%M'), DATE_FORMAT(created_at, '%Y')"))
             ->orderBy('created_at')
             ->get();
-        $datavidio = vidio::select(DB::raw("COUNT(*) as jumlah"))
+        $dataekskul = Ekskul::select(DB::raw("COUNT(*) as jumlah"))
             ->count();
         $dataevent = event::select(DB::raw("COUNT(*) as jumlah"))
             ->count();
         $dataprestasi = prestasi::select(DB::raw("COUNT(*) as jumlah"))
             ->count();
-        return view('admin.dashboard ', compact('year', 'pendaftar', 'vidio', 'event', 'prestasi', 'bulan', 'pendaftaran', 'datavidio', 'dataevent', 'dataprestasi', 'results'));
+        return view('admin.dashboard ', compact('year', 'pendaftar', 'ekskul', 'event', 'fotogalery', 'bulan', 'pendaftaran', 'dataekskul', 'dataevent', 'dataprestasi', 'results'));
     })->name('dashboard');
 });
 
