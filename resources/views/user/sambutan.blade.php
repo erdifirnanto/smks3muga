@@ -55,495 +55,314 @@
   </div>
 </div>
 
-<div id="services" class="our-services section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3">
-        <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <h2>Daftar Guru</h2>
+    <!-- Start DATA -->
+    <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding:50px;">
+    
+        <h1 class="mb-5">Daftar Guru dan Karyawan</h1>
+
+        <div class="filter">
+            <button class="filter-btn" onclick="filterCards('all')">Semua</button>
+            <button class="filter-btn" onclick="filterCards('PPLG')">PPLG</button>
+            <button class="filter-btn" onclick="filterCards('MPLB')">MPLB</button>
+            <button class="filter-btn" onclick="filterCards('TBSM')">TBSM</button>
+            <button class="filter-btn" onclick="filterCards('TKRO')">TKRO</button>
+            <button class="filter-btn" onclick="filterCards('Normatif')">Normatif</button>
+            <button class="filter-btn" onclick="filterCards('Karyawan')">Karyawan</button>
+            <button class="filter-btn" onclick="filterCards('Waka')">Waka</button>
         </div>
-      </div>
-    </div>
-  </div>
 
-<!-- Tab Navigation -->
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <ul class="nav nav-tabs" id="teacherTabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="pplg-tab" href="{{ url('all') }}" role="tab">ALL</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="pplg-tab" href="{{ url('pplg') }}" role="tab">PPLG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="mplb-tab" href="{{ url('mplb') }}" role="tab">MPLB</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="tbsm-tab" href="{{ url('tbsm') }}" role="tab">TBSM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="tkro-tab" href="{{ url('tkro') }}" role="tab">TKRO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="normatif-tab" href="{{ url('normatif') }}" role="tab">Normatif</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="karyawan-tab" href="{{ url('karyawan') }}" role="tab">Karyawan</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" id="waka-tab" href="{{ url('waka') }}" role="tab">Waka</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cards ">
 
+                        <!-- PPLG -->
+                        <div class="card card-color1" data-category="PPLG">
+                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
+                            <div class="card-content">
+                                <h2>Ahmad</h2>
+                                <p>PPLG</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="PPLG">
+                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
+                            <div class="card-content">
+                                <h2>Ahmad</h2>
+                                <p>PPLG</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="PPLG">
+                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
+                            <div class="card-content">
+                                <h2>Ahmad</h2>
+                                <p>PPLG</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="PPLG">
+                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
+                            <div class="card-content">
+                                <h2>Ahmad</h2>
+                                <p>PPLG</p>
+                            </div>
+                        </div>
 
-  <div class="container-fluid">
-    <div class="row">
+                        <!-- MPLB -->
+                        <div class="card card-color2" data-category="MPLB">
+                            <img src="https://via.placeholder.com/200x200.png?text=MPLB"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
+                            <div class="card-content">
+                                <h2>Budi</h2>
+                                <p>MPLB</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="MPLB">
+                            <img src="https://via.placeholder.com/200x200.png?text=MPLB"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
+                            <div class="card-content">
+                                <h2>Budi</h2>
+                                <p>MPLB</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="MPLB">
+                            <img src="https://via.placeholder.com/200x200.png?text=MPLB"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
+                            <div class="card-content">
+                                <h2>Budi</h2>
+                                <p>MPLB</p>
+                            </div>
+                        </div>
 
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/ahmadmarzuki.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Akhmad Marzuki, S.T.</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
+                        <!-- TBSM -->
+                        <div class="card card-color1" data-category="TBSM">
+                            <img src="https://via.placeholder.com/200x200.png?text=TBSM"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
+                            <div class="card-content">
+                                <h2>Citra</h2>
+                                <p>TBSM</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="TBSM">
+                            <img src="https://via.placeholder.com/200x200.png?text=TBSM"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
+                            <div class="card-content">
+                                <h2>Citra</h2>
+                                <p>TBSM</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="TBSM">
+                            <img src="https://via.placeholder.com/200x200.png?text=TBSM"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
+                            <div class="card-content">
+                                <h2>Citra</h2>
+                                <p>TBSM</p>
+                            </div>
+                        </div>
+
+                        <!-- TKRO -->
+                        <div class="card card-color2" data-category="TKRO">
+                            <img src="{{asset('user/assets/images/ahmadmarzuki.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TKRO">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Akhmad Marzuki, S.T.</h6>
+                              <p class="text-dark">K3 TKRO</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="TKRO">
+                            <img src="https://via.placeholder.com/200x200.png?text=TKRO"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TKRO">
+                            <div class="card-content">
+                                <h2>Dewi</h2>
+                                <p>TKRO</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="TKRO">
+                            <img src="https://via.placeholder.com/200x200.png?text=TKRO"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TKRO">
+                            <div class="card-content">
+                                <h2>Dewi</h2>
+                                <p>TKRO</p>
+                            </div>
+                        </div>
+
+                        <!-- NORMATIF -->
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="https://via.placeholder.com/200x200.png?text=Normatif"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                                <h2>Eko</h2>
+                                <p>Normatif</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="https://via.placeholder.com/200x200.png?text=Normatif"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                                <h2>Eko</h2>
+                                <p>Normatif</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="https://via.placeholder.com/200x200.png?text=Normatif"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                                <h2>Eko</h2>
+                                <p>Normatif</p>
+                            </div>
+                        </div>
+
+                        <!-- KARYAWAN -->
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="https://via.placeholder.com/200x200.png?text=Karyawan"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                                <h2>Fajar</h2>
+                                <p>Karyawan</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="https://via.placeholder.com/200x200.png?text=Karyawan"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                                <h2>Fajar</h2>
+                                <p>Karyawan</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="https://via.placeholder.com/200x200.png?text=Karyawan"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                                <h2>Fajar</h2>
+                                <p>Karyawan</p>
+                            </div>
+                        </div>
+
+                        <!-- WAKA -->
+                        <div class="card card-color1" data-category="Waka">
+                            <img src="https://via.placeholder.com/200x200.png?text=Waka"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
+                            <div class="card-content">
+                                <h2>Gita</h2>
+                                <p>Waka</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Waka">
+                            <img src="https://via.placeholder.com/200x200.png?text=Waka"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
+                            <div class="card-content">
+                                <h2>Gita</h2>
+                                <p>Waka</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Waka">
+                            <img src="https://via.placeholder.com/200x200.png?text=Waka"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
+                            <div class="card-content">
+                                <h2>Gita</h2>
+                                <p>Waka</p>
+                            </div>
+                        </div>
+
+                        <!-- END -->
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/mareti.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Mareti Kensiwi, S.Pd.</h4>
-            <p> Guru Bahasa Indonesia/Seni</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/syamsul.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Syamsul Huda, S.Th.I</h4>
-            <p>Guru BK</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/hadi.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Muhamad Hadi Makrus, S.T.</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/mariyati.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Mariyati, S.E.</h4>
-            <p>Guru Produktif APK</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/rohman.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Rohman Subekti</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/jeny.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Jenny Pratama, S.T.</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/dewi.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Dewi Hajar K. K., S.S.</h4>
-            <p>Guru Bahasa Indonesia/Seni</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/liya.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Liya Elisya, M.Pd.</h4>
-            <p>Guru ISMUBA</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/luqman.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Luqman Fauzi, S.Kom.</h4>
-            <p>Produktif RPL/Informatika</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/kholil.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>M. Muhtar Kholil, S.E.</h4>
-            <p>Guru Produktif APK/IPAS</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/febri.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Febriyan Eka P., S.Si.</h4>
-            <p>Guru IPAS</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/habib.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>M. Habib Munir Ali, S.Pd.</h4>
-            <p>Matematika/Sejarah Indonesia</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/nurul.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Nurul Azizah, S.Pd.</h4>
-            <p>Guru IPAS</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/sugeng.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Sugeng Widodo, S.Pd.</h4>
-            <p> Guru BK</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/sri.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Srikanah, S.Ag.</h4>
-            <p>Guru Mulok B. Jawa/ ISMUBA</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/ditia.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Ditia Puspita D., S.Pd.</h4>
-            <p>Guru Matematika</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/unsa.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Unsa Aulia Rosanti, S.Pd.</h4>
-            <p>Guru ISMUBA</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/fera.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Fera Rizkyana, S.Pd.</h4>
-            <p>Guru Bahasa Inggris</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/navashoqibatul.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Nava Shoqibatul K., S.Tr.Kom.</h4>
-            <p>Guru Produktif RPL</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/tutik.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Tutik Wahyuni</h4>
-            <p>Staff Koperasi</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/katimin.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Katimin</h4>
-            <p>Satpam</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/rena.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Meirena Tri Nur Aida, S.T.</h4>
-            <p>Bendahara</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/khoirulanam.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Khoirul Anam, M.M.</h4>
-            <p>Guru Produktif OTKP/ B. Inggris</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/nisa.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Annisa Nur Nahar</h4>
-            <p>Guru Bahasa Inggris</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/rendizulfikar.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Muhammad Rendi Zulfikar</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/qori.png')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Qoriah Nur Umami, A.Md.Kom</h4>
-            <p>Staff TU</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/amar.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Amar Abdul Aziz</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/rendi.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Rendi Kurniawan, S.Pd.</h4>
-            <p>Guru BK</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/febi.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Febi Islam R., S.T.</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/anang.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Anang Hermawan, S.Kom.</h4>
-            <p>Guru Informatika</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/rino.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Rino</h4>
-            <p>Guru Produktif Otomtif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/risqi.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Mohammad Rizqi A.</h4>
-            <p>Guru Produktif Otomotif</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/sinta.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Shinta Zunia Putri, S.M</h4>
-            <p>Ka. Perpustakaan</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/candra.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Candra Yustia D., S.Pd.</h4>
-            <p>Guru PPKN</p>
-          </div>
-        </div>
-      </div>
 
 
-      <div class="col-lg-4">
-        <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="icon">
-            <img src="{{asset('user/assets/images/faiza.jpg')}}" alt="Ahmad Marzuki">
-          </div>
-          <div style="padding-top:20px;" class="description">
-            <h4>Faizatul Cholidah., S.H.</h4>
-            <p>Guru ISMUBA</p>
-          </div>
-        </div>
-      </div>
 
     </div>
-  </div>
-</div>
+    <style>
+        h1 {
+            text-align: center;
+        }
 
+        .filter {
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
+        .filter-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
 
+        .filter-btn:hover {
+            background-color: #0056b3;
+        }
 
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            transition: all 0.5s ease;
+        }
+
+        .card {
+            color: #ffffff;
+            padding: 0;
+            border-radius: 8px;
+            box-sizing: border-box;
+            text-align: center;
+            transition: all 0.5s ease;
+            opacity: 1;
+            transform: translateY(0);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card.hidden {
+            display: none;
+        }
+
+        .card-color1 {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        .card-color2 {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+    </style>
+    <script>
+        function filterCards(category) {
+            var cards = document.getElementsByClassName('card');
+
+            for (var i = 0; i < cards.length; i++) {
+                if (category === 'all') {
+                    cards[i].classList.remove('hidden');
+                } else {
+                    if (cards[i].getAttribute('data-category') === category) {
+                        cards[i].classList.remove('hidden');
+                    } else {
+                        cards[i].classList.add('hidden');
+                    }
+                }
+            }
+        }
+
+    </script>
+    <!-- END DATA -->
 
 @endsection

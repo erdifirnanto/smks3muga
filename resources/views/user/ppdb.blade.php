@@ -56,8 +56,8 @@
             <div class="col-md-6">
               <div style="text-align: center;" class="section-heading">
               <h2 style="text-align:left;" class="text-dark">Vidio PPDB SMK Muhammadiyah 3 Tegaldlimo</h2>
-              <p style="text-align:left;"> <strong> Selamat Menyongsong Tahun Ajaran Baru 2024/2025 <strong></p>
-              <p style="text-align:left;" class="text-dark">Hadapi dengan optimis dan semangat mengasah diri dalam mengukir prestasi!</p>
+              <br> <h5 style="text-align:left;" class="text-dark"> <strong> Menyongsong Tahun Ajaran Baru 2024/2025</h5>
+              <p style="text-align:left;"> Hadapi dengan optimis dan semangat mengasah diri dalam mengukir prestasi!</p>
             </div>
           </div>
           </div>

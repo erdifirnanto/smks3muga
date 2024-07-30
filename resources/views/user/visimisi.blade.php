@@ -74,7 +74,7 @@
         <div class="section-heading d-flex justify-content-center">
           <h2>Tujuan Sekolah</h2>
         </div>
-        <div style="text-align:left; margin-top: 10px; font-weight:normal;">
+        <div style="text-align:justify; margin-top: 10px; font-weight:normal;">
           <ul>
             <li>1. Terwujudnya SMK Muhammadiyah 3 Tegaldlimo sebagai lembaga unggul dan menjadi pilihan masyarakat.</li>
             <li>2. Terwujudnya lulusan SMK Muhammadiyah 3 Tegaldlimo yang memiliki daya saing yang tinggi untuk memasuki persaingan global.</li>
