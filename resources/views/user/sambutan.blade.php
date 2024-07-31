@@ -78,92 +78,100 @@
 
                         <!-- PPLG -->
                         <div class="card card-color1" data-category="PPLG">
-                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                            <img src="{{ asset('user/assets/images/navashoqibatul.png') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
                             <div class="card-content">
-                                <h2>Ahmad</h2>
-                                <p>PPLG</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Nava S. K., S.Tr.Kom.</h6>
+                                <p>K3 PPLG</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="PPLG">
-                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                            <img src="{{ asset('user/assets/images/luqman.png') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
                             <div class="card-content">
-                                <h2>Ahmad</h2>
-                                <p>PPLG</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Luqman F., S.Kom.</h6>
+                                <p>Produktif PPLG</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="PPLG">
-                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
+                            <img src="{{ asset('user/assets/images/anang.jpg') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
                             <div class="card-content">
-                                <h2>Ahmad</h2>
-                                <p>PPLG</p>
-                            </div>
-                        </div>
-                        <div class="card card-color1" data-category="PPLG">
-                            <img src="https://via.placeholder.com/200x200.png?text=PPLG"
-                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="PPLG">
-                            <div class="card-content">
-                                <h2>Ahmad</h2>
-                                <p>PPLG</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Anang H., S.Kom.</h6>
+                                <p>Produktif PPLG</p>
                             </div>
                         </div>
 
                         <!-- MPLB -->
-                        <div class="card card-color2" data-category="MPLB">
-                            <img src="https://via.placeholder.com/200x200.png?text=MPLB"
+                        <div class="card card-color1" data-category="MPLB">
+                            <img src="{{ asset('user/assets/images/mariyati.png') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
                             <div class="card-content">
-                                <h2>Budi</h2>
-                                <p>MPLB</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Mariyati, S.E.</h6>
+                                <p>K3 MPLB</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="MPLB">
+                            <img src="{{ asset('user/assets/images/khoirulanam.png') }}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Khoirul A., S.E., M.M. MOS.</h6>
+                                <p>Produktif MPLB</p>
                             </div>
                         </div>
                         <div class="card card-color2" data-category="MPLB">
-                            <img src="https://via.placeholder.com/200x200.png?text=MPLB"
+                            <img src="{{ asset('user/assets/images/kholil.png') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
                             <div class="card-content">
-                                <h2>Budi</h2>
-                                <p>MPLB</p>
-                            </div>
-                        </div>
-                        <div class="card card-color2" data-category="MPLB">
-                            <img src="https://via.placeholder.com/200x200.png?text=MPLB"
-                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="MPLB">
-                            <div class="card-content">
-                                <h2>Budi</h2>
-                                <p>MPLB</p>
+                              <h6 class="text-dark" style="font-weight: bold;">M. Muhtar K., S.E.</h6>
+                                <p>Produktif MPLB</p>
                             </div>
                         </div>
 
                         <!-- TBSM -->
                         <div class="card card-color1" data-category="TBSM">
-                            <img src="https://via.placeholder.com/200x200.png?text=TBSM"
+                            <img src="{{ asset('user/assets/images/kholil.png') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
                             <div class="card-content">
-                                <h2>Citra</h2>
-                                <p>TBSM</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Jenny P., S.T.</h6>
+                                <p>K3 TBSM</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="TBSM">
-                            <img src="https://via.placeholder.com/200x200.png?text=TBSM"
+                            <img src="{{ asset('user/assets/images/rohman.png') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
                             <div class="card-content">
-                                <h2>Citra</h2>
-                                <p>TBSM</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Rohman S., S.T.</h6>
+                                <p>Produktif TBSM</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="TBSM">
-                            <img src="https://via.placeholder.com/200x200.png?text=TBSM"
+                            <img src="{{ asset('user/assets/images/rendizulfikar.jpg') }}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
                             <div class="card-content">
-                                <h2>Citra</h2>
-                                <p>TBSM</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Rendi Zulfikar</h6>
+                                <p>Toolman TBSM</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="TBSM">
+                            <img src="{{ asset('user/assets/images/risqi.jpg') }}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Mohammad Rizki A.</h6>
+                                <p>Toolman TBSM</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="TBSM">
+                            <img src="{{ asset('user/assets/images/rino.jpg') }}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TBSM">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Rino</h6>
+                                <p>Toolman TBSM</p>
                             </div>
                         </div>
 
                         <!-- TKRO -->
-                        <div class="card card-color2" data-category="TKRO">
+                        <div class="card card-color1" data-category="TKRO">
                             <img src="{{asset('user/assets/images/ahmadmarzuki.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TKRO">
                             <div class="card-content">
@@ -171,98 +179,242 @@
                               <p class="text-dark">K3 TKRO</p>
                             </div>
                         </div>
-                        <div class="card card-color2" data-category="TKRO">
-                            <img src="https://via.placeholder.com/200x200.png?text=TKRO"
+                        <div class="card card-color1" data-category="TKRO">
+                            <img src="{{asset('user/assets/images/febi.jpg')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TKRO">
                             <div class="card-content">
-                                <h2>Dewi</h2>
-                                <p>TKRO</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Febi Islam R., S.T.</h6>
+                                <p>Produktif TKRO</p>
                             </div>
                         </div>
-                        <div class="card card-color2" data-category="TKRO">
-                            <img src="https://via.placeholder.com/200x200.png?text=TKRO"
+                        <div class="card card-color1" data-category="TKRO">
+                            <img src="{{asset('user/assets/images/amar.jpg')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="TKRO">
                             <div class="card-content">
-                                <h2>Dewi</h2>
-                                <p>TKRO</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Amar Abdul A.</h6>
+                                <p>Toolman TKRO</p>
                             </div>
                         </div>
 
                         <!-- NORMATIF -->
                         <div class="card card-color1" data-category="Normatif">
-                            <img src="https://via.placeholder.com/200x200.png?text=Normatif"
+                            <img src="{{asset('user/assets/images/febri.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
                             <div class="card-content">
-                                <h2>Eko</h2>
-                                <p>Normatif</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Febriyan E. P., S.Si.</h6>
+                                <p>Matematika</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="Normatif">
-                            <img src="https://via.placeholder.com/200x200.png?text=Normatif"
+                            <img src="{{asset('user/assets/images/nurul.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
                             <div class="card-content">
-                                <h2>Eko</h2>
-                                <p>Normatif</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Nurul A., S.Pd.</h6>
+                                <p>IPAS</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="Normatif">
-                            <img src="https://via.placeholder.com/200x200.png?text=Normatif"
+                            <img src="{{asset('user/assets/images/unsa.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
                             <div class="card-content">
-                                <h2>Eko</h2>
-                                <p>Normatif</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Unsa A. R., S.Pd.</h6>
+                                <p>ISMUBA</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/sri.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Sri K., S.Ag.</h6>
+                                <p>Muatan Lokal</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/ditia.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Ditia P. D., S.Pd.</h6>
+                                <p>Matematika</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/rendi.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Rendi K., S.Pd.</h6>
+                                <p>Bimbingan Konseling</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/sugeng.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Sugeng W., S.Pd.</h6>
+                                <p>Bimbingan Konseling</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/syamsul.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Syamsul H., S.THI</h6>
+                                <p>Bimbingan Konseling</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/habib.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">M. Habib M., S.Pd.</h6>
+                                <p>Matematika</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/fera.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Fera R., S.Pd.</h6>
+                                <p>Bahasa Inggris</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/mareti.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Mareti Kensiwi, S.Pd.</h6>
+                                <p>Bahasa Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/suwono.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Suwono</h6>
+                                <p>Pendidikan Jasmani</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/candra.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Candra Y. D., S.Pd.</h6>
+                                <p>PPKN</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Normatif">
+                            <img src="{{asset('user/assets/images/dewi.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Normatif">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Dewi H. K. K., S.Pd.</h6>
+                                <p>Bahasa Indonesia</p>
                             </div>
                         </div>
 
                         <!-- KARYAWAN -->
                         <div class="card card-color2" data-category="Karyawan">
-                            <img src="https://via.placeholder.com/200x200.png?text=Karyawan"
+                            <img src="{{asset('user/assets/images/sinta.jpg')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
                             <div class="card-content">
-                                <h2>Fajar</h2>
-                                <p>Karyawan</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Shinta Z. P., S.M.</h6>
+                                <p>Kepala Perpustakaan</p>
                             </div>
                         </div>
                         <div class="card card-color2" data-category="Karyawan">
-                            <img src="https://via.placeholder.com/200x200.png?text=Karyawan"
+                            <img src="{{asset('user/assets/images/febri.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
                             <div class="card-content">
-                                <h2>Fajar</h2>
-                                <p>Karyawan</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Febriyan E. P., S.Si</h6>
+                                <p>Kepala Tata Usaha</p>
                             </div>
                         </div>
                         <div class="card card-color2" data-category="Karyawan">
-                            <img src="https://via.placeholder.com/200x200.png?text=Karyawan"
+                            <img src="{{asset('user/assets/images/qori.jpg')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
                             <div class="card-content">
-                                <h2>Fajar</h2>
-                                <p>Karyawan</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Qoriah N. U., A.Md.Kom.</h6>
+                                <p>Staff Tata Usaha</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="{{asset('user/assets/images/nisa.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Annisa Nur Nahar</h6>
+                                <p>Staff Tata Usaha</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="{{asset('user/assets/images/faiza.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Faizatul C., S.H.</h6>
+                                <p>Staff Tata Usaha</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="{{asset('user/assets/images/tutik.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Tutik Wahyuni</h6>
+                                <p>Staff Koperasi</p>
+                            </div>
+                        </div>
+                        <div class="card card-color2" data-category="Karyawan">
+                            <img src="{{asset('user/assets/images/katimin.jpg')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Karyawan">
+                            <div class="card-content">
+                              <h6 class="text-dark" style="font-weight: bold;">Katimin</h6>
+                                <p>Satpam</p>
                             </div>
                         </div>
 
                         <!-- WAKA -->
                         <div class="card card-color1" data-category="Waka">
-                            <img src="https://via.placeholder.com/200x200.png?text=Waka"
+                            <img src="{{asset('user/assets/images/mareti.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
                             <div class="card-content">
-                                <h2>Gita</h2>
-                                <p>Waka</p>
+                              <h6 class="text-dark" style="font-weight: bold;">Mareti K., S.Pd.</h6>
+                                <p>Waka SDM</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="Waka">
-                            <img src="https://via.placeholder.com/200x200.png?text=Waka"
+                            <img src="{{asset('user/assets/images/liya.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
                             <div class="card-content">
-                                <h2>Gita</h2>
-                                <p>Waka</p>
+                                <h6 class="text-dark" style="font-weight: bold;">Liya E., S.Pd.I, M.Pd</h6>
+                                <p>Waka ISMUBA</p>
                             </div>
                         </div>
                         <div class="card card-color1" data-category="Waka">
-                            <img src="https://via.placeholder.com/200x200.png?text=Waka"
+                            <img src="{{asset('user/assets/images/rohman.png')}}"
                                 style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
                             <div class="card-content">
-                                <h2>Gita</h2>
-                                <p>Waka</p>
+                                <h6 class="text-dark" style="font-weight: bold;">Rohman S., S.T.</h6>
+                                <p>Waka Sarpras</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Waka">
+                            <img src="{{asset('user/assets/images/dewi.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
+                            <div class="card-content">
+                                <h6 class="text-dark" style="font-weight: bold;">Dewi Hajar K. K., S.Pd.</h6>
+                                <p>Waka Kesiswaan</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Waka">
+                            <img src="{{asset('user/assets/images/khoirulanam.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
+                            <div class="card-content">
+                                <h6 class="text-dark" style="font-weight: bold;">Khoirul A., S.E., M.M., MOS</h6>
+                                <p>Waka Humas</p>
+                            </div>
+                        </div>
+                        <div class="card card-color1" data-category="Waka">
+                            <img src="{{asset('user/assets/images/hadi.png')}}"
+                                style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Waka">
+                            <div class="card-content">
+                                <h6 class="text-dark" style="font-weight: bold;">M. Hadi M., S.T.</h6>
+                                <p>Waka Kurikulum</p>
                             </div>
                         </div>
 
