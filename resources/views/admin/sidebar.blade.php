@@ -27,35 +27,25 @@
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link" href="{{route('event_admin')}}">
-            <i class="fas fa-fw fa-cog"></i>
+            <i class="fa-regular fa-calendar-days"></i>
             <span>Event Sekolah</span></a>
 
     </li>
     <li class="nav-item">
+        <a class="nav-link" href="{{route('berita_admin')}}">
+            <i class="fa-solid fa-newspaper"></i>
+            <span>Berita Sekolah</span></a>
+
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="{{route('view_pendaftaran')}}">
-            <i class="fas fa-fw fa-wrench"></i>
+            <i class="fas fa-clipboard-list"></i>
             <span>Pendaftaran</span></a>
 
     </li>
-
-    <!-- Nav Item - Utilities Collapse Menu -->
-
-
-    <!-- Divider -->
-    <hr class="sidebar-divider">
-
-    <!-- Heading -->
-    <div class="sidebar-heading">
-        Galery
-    </div>
-
-    <!-- Nav Item - Pages Collapse Menu -->
-
-
-    <!-- Nav Item - Charts -->
     <li class="nav-item">
         <a class="nav-link" href="{{route('prestasi_admin')}}">
-            <i class="fas fa-fw fa-chart-area"></i>
+            <i class="fa-solid fa-image"></i>
             <span>Foto</span></a>
     </li>
 
@@ -64,6 +54,22 @@
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Ekstrakurikuler</span></a>
     </li>
+    <!-- Nav Item - Utilities Collapse Menu -->
+
+
+    <!-- Divider -->
+    <!-- <hr class="sidebar-divider"> -->
+
+    <!-- Heading -->
+    <!-- <div class="sidebar-heading">
+        Galery
+    </div> -->
+
+    <!-- Nav Item - Pages Collapse Menu -->
+
+
+    <!-- Nav Item - Charts -->
+
 
     <!-- Nav Item - Tables
     <li class="nav-item">

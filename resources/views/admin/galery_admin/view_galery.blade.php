@@ -3,7 +3,7 @@
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Galery Tables</h1>
+    <h1 class="h3 mb-2 text-gray-800">Galery</h1>
 
 
     <!-- DataTales Example -->
@@ -11,7 +11,7 @@
         <div class="card-header py-3">
             <div class="row align-items-center">
                 <div class="col">
-                    <h6 class="m-0 font-weight-bold text-primary">Data Tables Foto</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Data Foto</h6>
                 </div>
                 <div class="co"><a href="{{ route('add.prestasi_admin') }}" class="btn btn-primary"> Tambah Data</a>
                 </div>

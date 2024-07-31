@@ -19,7 +19,7 @@
           </div>
 
           <div class="col-sm-6 mb-3 mb-sm-0">
-            <label for="foto_ekskuls">Foto</label>
+            <label for="foto_ekskuls">Foto : Pilih Foto dengan Perbandingan 4:6</label>
             <input class="form-control form-control-lg" accept="image/*" type="file" id="foto_ekskuls" name="foto_ekskuls">
             @error('foto_ekskuls')
             <div class="invalid-feedback">{{ $message }}</div>

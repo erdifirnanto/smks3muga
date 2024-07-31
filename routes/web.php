@@ -1,12 +1,14 @@
 <?php
 
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PendaftaranController;
 use App\Http\Controllers\PrestasiController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VidioController;
 use App\Models\event;
+use App\Models\Berita;
 use App\Models\pendaftaran;
 use App\Models\prestasi;
 use App\Models\vidio;
@@ -55,8 +57,13 @@ Route::get('/welcome', function () {
 
 Route::get('/', [UserController::class, 'dashboard'])->name('dashboard.user');
 Route::get('/portoVidio', [UserController::class, 'portoVidio'])->name('portoVidio.user');
+//event
 Route::get('/event', [UserController::class, 'event'])->name('event.user');
 Route::get('/event/blog/{id}', [UserController::class, 'blog'])->name('blog.user');
+//berita
+Route::get('/berita', [UserController::class, 'berita'])->name('berita.user');
+Route::get('/berita/blog1/{id}', [UserController::class, 'blog1'])->name('blog1.user');
+//data
 Route::get('/prestasi', [UserController::class, 'prestasi'])->name('user.prestasi');
 Route::get('/pendafataran', [PendaftaranController::class, 'create'])->name('user.pendaftaran');
 Route::post('/store/pendaftaran', [PendaftaranController::class, 'store'])->name('store.pendaftaran');
@@ -138,6 +145,15 @@ Route::group(['prefix' => 'event', 'middleware' => ['auth:sanctum', config('jets
     Route::get('/edit/{id}', [EventController::class, 'edit'])->name('edit.event_admin');
     Route::post('/update/{id}', [EventController::class, 'update'])->name('update.event_admin');
     Route::get('/delete/{id}', [EventController::class, 'destroy'])->name('delete.event_admin');
+});
+
+Route::group(['prefix' => 'berita', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
+    Route::get('/view', [BeritaController::class, 'index'])->name('berita_admin');
+    Route::get('/add', [BeritaController::class, 'create'])->name('add.berita_admin');
+    Route::post('/store', [BeritaController::class, 'store'])->name('store.berita_admin');
+    Route::get('/edit/{id}', [BeritaController::class, 'edit'])->name('edit.berita_admin');
+    Route::post('/update/{id}', [BeritaController::class, 'update'])->name('update.berita_admin');
+    Route::get('/delete/{id}', [BeritaController::class, 'destroy'])->name('delete.berita_admin');
 });
 
 Route::group(['prefix' => 'pendaftaran', 'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {

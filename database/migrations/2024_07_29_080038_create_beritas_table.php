@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('beritas', function (Blueprint $table) {
             $table->id();
+            $table->string('judul_berita');
+            $table->text('berita');
+            $table->text('foto_berita');
+            $table->string('pembuat');
             $table->timestamps();
         });
     }

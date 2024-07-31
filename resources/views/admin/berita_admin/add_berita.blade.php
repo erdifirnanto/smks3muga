@@ -3,16 +3,16 @@
 <div class="container-fluid">
   <div class="card shadow mb-4">
     <div class="card-header py-3">
-      <h6 class="m-0 font-weight-bold text-primary">Tambah Data Event</h6>
+      <h6 class="m-0 font-weight-bold text-primary">Tambah Data Berita</h6>
     </div>
     <div class="card-body">
-      <form id="validate" class="user" method="POST" action="{{route('store.event_admin')}}" enctype="multipart/form-data">
+      <form id="validate" class="user" method="POST" action="{{route('store.berita_admin')}}" enctype="multipart/form-data">
         @csrf
         <div class="form-group row">
           <div class="col-sm-6 mb-3 mb-sm-0">
-            <label for="judul_event">Judul Event</label>
-            <input type="text" class="form-control form-control-lg  @error('judul_event') is-invalid @enderror" id="judul_event" placeholder="Judul Event" name="judul_event">
-            @error('judul_event')
+            <label for="judul_berita">Judul Berita</label>
+            <input type="text" class="form-control form-control-lg  @error('judul_berita') is-invalid @enderror" id="judul_berita" placeholder="Judul Berita" name="judul_berita">
+            @error('judul_berita')
             <div class="invalid-feedback">{{ $message }}</div>
             @enderror
             <br>
@@ -29,7 +29,7 @@
 
           <div class="col-sm-6 mb-3 mb-sm-0">
             <label for="Foto">Foto : Pilih Foto dengan Perbandingan 4:6</label>
-            <input class="form-control form-control-lg" accept="image/*" name="foto_event" type="file" id="Foto">
+            <input class="form-control form-control-lg" accept="image/*" name="foto_berita" type="file" id="Foto">
             @error('Foto')
             <div class="invalid-feedback">{{ $message }}</div>
             @enderror
@@ -50,7 +50,7 @@
           <span class="icon text-white-50">
             <i class="fas fa-plus"></i>
           </span>
-          <span class="text">Tambah Event</span>
+          <span class="text">Tambah Berita</span>
         </button>
       </form>
     </div>
@@ -62,13 +62,13 @@
   $("#validate").validate({
 
     rules: {
-      judul_event: {
+      judul_berita: {
         required: true,
       },
       pembuat: {
         required: true,
       },
-      foto_event: {
+      foto_berita: {
         required: true,
       },
       berita: {
@@ -77,16 +77,16 @@
 
     },
     messages: {
-      judul_event: {
-        required: "Judul event tidak boleh kosong",
+      judul_berita: {
+        required: "Judul berita tidak boleh kosong",
       },
       pembuat: {
 
         required: "pembuat tidak boleh kosong",
 
       },
-      foto_event: {
-        required: "foto event harus ditambahkan",
+      foto_berita: {
+        required: "foto berita harus ditambahkan",
       },
       berita: {
         required: "verita tidak boleh kosong",
