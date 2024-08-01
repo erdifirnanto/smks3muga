@@ -175,6 +175,7 @@ Route::get('/fasilitas', [ProfileController::class, 'fasilitas'])->name('fasilit
 Route::get('/fasilitas/bankminimuga', [ProfileController::class, 'bankminimuga'])->name('bankminimuga.user');
 Route::get('/fasilitas/masjid', [ProfileController::class, 'masjid'])->name('masjid.user');
 Route::get('/fasilitas/perpustakaan', [ProfileController::class, 'perpustakaan'])->name('perpustakaan.user');
+Route::get('/fasilitas/parkir', [ProfileController::class, 'parkir'])->name('parkir.user');
 
 Route::get('/strukturorganisasi', [ProfileController::class, 'strukturorganisasi'])->name('strukturorganisasi.user');
 Route::get('/berita', [InformasiController::class, 'berita'])->name('berita.user');

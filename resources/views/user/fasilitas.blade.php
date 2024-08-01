@@ -71,12 +71,13 @@
         </div>
 
         <div class="col-md-3">
-          <div class="card" style="background-image: url('user/assets/images/tempatparkir.jpg');">
-            <div class="back d-flex justify-content-center">
-              <h1>Tempat Parkir</h1>
-              <button type="button" class="btn btn-primary" style="border-radius: 20px;">Baca Selengkapnya</button>
+          <a href="{{route('parkir.user')}}">
+            <div class="card" style="background-image: url('user/assets/images/tempatparkir.jpg');">
+              <div class="back d-flex justify-content-center">
+                <h1>Tempat Parkir</h1>
+                <button type="button" class="btn btn-primary" style="border-radius: 20px;">Baca Selengkapnya</button>
+              </div>
             </div>
-          </div>
         </div>
 
       </div>

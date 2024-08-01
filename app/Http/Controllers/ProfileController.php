@@ -16,6 +16,7 @@ class ProfileController extends Controller
         return view('user.visimisi');
     }
 
+    // Fasilitas Route
     public function fasilitas()
     {
         return view('user.fasilitas');
@@ -36,6 +37,13 @@ class ProfileController extends Controller
         return view('user.perpustakaan');
     }
 
+    public function parkir()
+    {
+        return view('user.parkir ');
+    }
+
+
+    // End Route
     public function strukturorganisasi()
     {
         return view('user.strukturorganisasi');
